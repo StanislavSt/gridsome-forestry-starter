@@ -38,6 +38,7 @@ query Posts {
 import Hero from "@/components/Hero"
 import ProjectsGrid from "@/components/ProjectsGrid"
 import LatestJournals from "@/components/LatestJournals"
+import Carousel from "../components/Carousel"
 
 export default {
   components: {

@@ -4,15 +4,17 @@
             <div class="left">
                 <g-link :to="{ name: 'home' }" class="home-link">
                     <img 
-                        src="../../static/logo.svg"
+                        src="../../static/thealogo.png"
                         :alt="settings.site_name" 
                         class="logo"
                     />
                 </g-link>
             </div>
             <nav class="nav right">
-                <g-link class="nav__link" :to="{ name: 'journal' }">Journal</g-link>
-                <g-link class="nav__link" :to="{ name: 'contact' }">Say Hi!</g-link>
+                <g-link class="nav__link" :to="{ name: 'artworks' }">Artworks</g-link>
+                <g-link class="nav__link" :to="{ name: 'journal' }">News</g-link>
+                <g-link class="nav__link" :to="{ name: 'contact' }">Contact</g-link>
+                <g-link class="nav__link" :to="{ name: 'about' }">About</g-link>
             </nav>
         </div>
     </header>
@@ -51,7 +53,7 @@ export default {
     text-decoration: none;
 }
 .logo {
-    height: 1.5rem;
+    height: 4.5rem;
 }
 .site-name {
     font-size: 0.9rem;

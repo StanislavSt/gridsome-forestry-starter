@@ -4,7 +4,7 @@
     <div class="container">
       <div class="journal-hero">
         <h1 class="journal-header">
-          a wise person once said...
+          Thea's News and Events
         </h1>
       </div>
     </div>
@@ -16,6 +16,11 @@
       class="journal-post"
     >
       <div class="container journal">
+        <g-image
+                :src="item.node.thumbnail"
+                :alt="item.node.title"
+                class="journal-thumbnail"
+            />
         <h2 class="journal-title">{{ item.node.title }}</h2>
         <p class="journal-excerpt">{{ item.node.excerpt }}</p>
       </div>
@@ -31,6 +36,7 @@ query Journal {
       node {
         id
         path
+        thumbnail
         title
         excerpt
       }
@@ -52,6 +58,12 @@ export default {
   padding: 4rem 0;
   text-align: center;
   color: var(--color-base-1);
+}
+.journal-thumbnail {
+  height: 260px;
+  object-fit: cover;
+  transition: all 0.15s ease;
+  box-shadow: 0 0 40px -20px rgba(0,0,0,0.25);
 }
 .journal-header {
   font-size: 3rem;
