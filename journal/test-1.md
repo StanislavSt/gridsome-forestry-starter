@@ -1,6 +1,6 @@
 ---
 date: 05/16/2019
-title: Yet another great journal entry
+title: Testing News Page
 author: Nichlas W. Andersen
 excerpt: Testing News Page
 
