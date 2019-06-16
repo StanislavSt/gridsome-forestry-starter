@@ -17,6 +17,7 @@ sections:
   create: documents
   match: "**/*.md"
   templates:
+  - project
   - journal
 - type: document
   path: data/theme.json
