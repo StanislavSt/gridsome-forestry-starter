@@ -36,7 +36,6 @@ fields:
     color_format: Hex
   label: Foreground color
 pages:
-- projects/flowers-in-the-middle-of-snowflakes.md
 - projects/bang-bang.md
 - projects/water-colors.md
 - projects/oil-n-gold-l.md
