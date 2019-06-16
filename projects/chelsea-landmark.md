@@ -1,9 +1,9 @@
 ---
 date: 2018
 year: 2019
-title: Thea
+title: Flowers in the middle of snowflakes
 category: Identity
-thumbnail: "/uploads/QAINSTA1.jpg"
+thumbnail: "/uploads/49506453_10210350062827604_2240574603124539392_n.jpg"
 categories:
 - photography
 - pink
@@ -11,6 +11,6 @@ project_bg_color: ''
 project_fg_color: ''
 
 ---
-The **banana** fruits grow from a **banana** blossom in hanging clusters, also called a bunch or **banana** stem. The fruits grow in rows called tiers or hands. There can be as many as twenty fruits to a hand, and as many as twenty tiers in a bunch. A bunch usually weighs between 30 and 50 kilograms (65 to 110 pounds).
+“Flowers in the middle of snowflakes”. 100/130
 
-![](/uploads/mike-dorner-173502-unsplash.jpg)
+![Image may contain: plant](https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/49506453_10210350062827604_2240574603124539392_n.jpg?_nc_cat=100&_nc_oc=AQk9iJ9I1OCW0C0yoKT0sDvaud5jg3S7aGhAvn7M10opTkrPbd-WPcokzj2OAfyqtgA&_nc_ht=scontent-amt2-1.xx&oh=41f179937bd17330e05d92e4450ce81a&oe=5D96D845)
