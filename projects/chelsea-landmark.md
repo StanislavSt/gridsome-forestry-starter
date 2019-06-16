@@ -1,9 +1,9 @@
 ---
 date: 2018
 year: 2019
-title: Banana
+title: Thea
 category: Identity
-thumbnail: "/uploads/mike-dorner-173502-unsplash.jpg"
+thumbnail: "/uploads/QAINSTA1.jpg"
 categories:
 - photography
 - pink
