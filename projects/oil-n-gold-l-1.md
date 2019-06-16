@@ -1,7 +1,7 @@
 ---
 date: 2019
 thumbnail: "/uploads/48411574_10210233732719424_6738859401739763712_n.jpg"
-title: Oil N’Gold l
+title: Oil N’Gold l 2
 categories:
 - art
 - canvas
