@@ -36,5 +36,6 @@ fields:
     color_format: Hex
   label: Foreground color
 pages:
+- projects/water-colors.md
 - projects/oil-n-gold-l.md
 - projects/chelsea-landmark.md
