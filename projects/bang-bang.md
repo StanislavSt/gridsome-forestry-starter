@@ -1,8 +1,9 @@
 ---
-date: 2019
+date: 2018
 thumbnail: "/uploads/23434928_10208035959576469_7526498797174649019_n.jpg"
 title: 'Bang bang '
-categories: []
+categories:
+- canvas
 project_bg_color: ''
 project_fg_color: ''
 
