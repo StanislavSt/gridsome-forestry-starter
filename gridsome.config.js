@@ -2,9 +2,9 @@
 // Learn more: https://gridsome.org/docs/config
 
 module.exports = {
-  siteName: "Portfolio",
+  siteName: "Thea",
   siteUrl: `https://www.itsnwa.com`,
-  titleTemplate: "%s - NWA",
+  titleTemplate: "%s 's art",
   siteDescription: "Creative technologist",
   plugins: [
     {
