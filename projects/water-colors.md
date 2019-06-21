@@ -4,6 +4,7 @@ thumbnail: "/uploads/23167485_10207976356766436_7230783872396222776_n.jpg"
 title: Water colors
 categories:
 - canvas
+- homepage
 project_bg_color: ''
 project_fg_color: ''
 
