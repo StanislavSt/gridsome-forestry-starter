@@ -1,7 +1,6 @@
 <template>
     <div class="projects">
         <div class="project" v-for="item in projects" :key="item.node.id">
-          <div v-if="item.node.categories == 'reproduction'">
             <g-link :to="item.node.path" class="project-link">
             <g-image
                 :src="item.node.thumbnail"
@@ -13,7 +12,6 @@
                 <span class="category" v-for="(item, index) in item.node.categories" :key="index">{{ item }}</span>
             </div>
             </g-link>
-          </div>
         </div>
     </div>
 </template>
@@ -32,7 +30,7 @@ export default {
 <style scoped>
 .projects {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 4rem;
 }
 .project {
@@ -43,7 +41,7 @@ export default {
   text-decoration: none;
 }
 .thumbnail {
-  height: 560px;
+  height: 160px;
   object-fit: cover;
   transition: all 0.15s ease;
   box-shadow: 0 0 40px -20px rgba(0,0,0,0.25);
@@ -73,7 +71,7 @@ export default {
     grid-column: auto / span 1;
   }
   .project:nth-child(3n+1) {
-    grid-column: auto / span 2;
+    grid-column: auto ;
   }
 }
 
