@@ -1,9 +1,9 @@
 <template>
   <div>
     <div class="category">
-    <button v-on:click="filter('all')">All</button>
-    <button v-on:click="filter('reproduction')">Reproduction</button>
-    <button v-on:click="filter('canvas')">Canvas</button>
+    <a v-on:click="filter('all')" class="btn btn-dark" >All</a>
+    <a v-on:click="filter('reproduction')" class="btn btn-dark" >Reproduction</a>
+    <a v-on:click="filter('canvas')" class="btn btn-dark" >Canvas</a>
     </div>
     <div class="projects">
         <div class="project" v-for="item in filtered(this.category)" :key="item.node.id">
@@ -14,9 +14,9 @@
                 class="thumbnail"
             />
             <h3 class="project-title">{{ item.node.title }}</h3>
-            <div class="categories">
+           <!-- <div class="categories">
                 <span class="category" v-for="(item, index) in item.node.categories" :key="index">{{ item }}</span>
-            </div>
+            </div>-->
             </g-link>
         </div>
     </div>
@@ -33,7 +33,7 @@ export default {
     },
     data: function(){
       return {
-        category: 'reproduction'
+        category: 'all'
         }
     },
     /*computed:{
@@ -63,11 +63,61 @@ export default {
 </script>
 
 <style scoped>
+/*------------------------------------------------------*/
+/* BUTTONS */
+/*------------------------------------------------------*/
+.btn,
+input[type="submit"]{
+	cursor: pointer;
+    border-radius: 0px;
+    text-decoration: none;
+    padding: 12px 18px;
+    font-size: 12px;
+    line-height: 19px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif; font-weight:400;
+    letter-spacing: 3px;
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+.btn:hover,
+input[type="submit"]:hover{
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+.btn-dark,
+input[type="submit"]{
+    background: transparent;
+    color: #1f1f1f;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.btn-dark:hover,
+input[type="submit"]:hover,
+.btn-dark.active{
+    border:solid 1px #1f1f1f;
+    background: #1f1f1f;
+    color: #fff;
+}
+
+.btn-color{
+    background: transparent;
+}
+.btn-color:hover{
+    color: #fff;
+}
+
 .category {
     text-align: center;
     max-width: 100%;
     margin: 0 auto;
-    padding-bottom: 4rem;
+    padding: 2rem 0 4rem 2rem;
 }
 .projects {
   display: grid;
@@ -82,7 +132,7 @@ export default {
   text-decoration: none;
 }
 .thumbnail {
-  height: 160px;
+  height: 190px;
   object-fit: cover;
   transition: all 0.15s ease;
   box-shadow: 0 0 40px -20px rgba(0,0,0,0.25);

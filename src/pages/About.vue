@@ -1,51 +1,10 @@
 <template>
-  <Layout>
-    <div class="container">
-      <Hero />
-      <Gallery :projects="$page.projects.edges" />
-    </div>
-  </Layout>
+
 </template>
 
-<page-query>
-query Posts {
-	projects: allProjectPost {
-    edges {
-      node {
-        id
-        date (format: "D. MMMM YYYY")
-        title
-        categories
-        thumbnail (quality: 90)
-        path
-      }
-    }
-  },
-  journals: allJournalPost (perPage: 4) {
-    edges {
-      node {
-        id
-        path
-        title
-      }
-    }
-  }
-}
-</page-query>
 <script>
-import Gallery from "../components/Gallery"
-import Hero from "@/components/Hero"
-
 export default {
-  components:{
-    Gallery,
-    Hero
-  },
-   mounted() {
-    let recaptchaScript = document.createElement('script')
-    recaptchaScript.setAttribute('src', 'https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.14.1/lodash.min.js')
-    document.head.appendChild(recaptchaScript)
-  },
+
 }
 </script>
 

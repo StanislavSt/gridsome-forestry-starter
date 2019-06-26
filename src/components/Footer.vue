@@ -2,6 +2,20 @@
     <footer class="footer">
         <div class="container">
             <span v-html="settings.footer" />
+            <a href="https://www.facebook.com">
+            <img 
+                        src="../../static/facebook_icon.svg"
+                        :alt="settings.site_name" 
+                        class="social"
+                    />
+            </a>
+            <a href="https://www.instagram.com">
+            <img 
+                        src="../../static/instagram_icon.svg"
+                        :alt="settings.site_name" 
+                        class="social"
+                    />
+            </a>
         </div>
     </footer>
 </template>
@@ -20,5 +34,9 @@ export default {
 .footer {
     font-size: 0.8rem;
     padding: 6rem 0;
+}
+.social{
+    float:right;
+    height: 1.9rem;
 }
 </style>

@@ -1,11 +1,6 @@
 <template>
   <Layout>
     <div class="container">
-      <div class="gallery-hero">
-        <h1 class="gallery-header">
-          My Artworks
-        </h1>
-      </div>
       <Gallery :projects="$page.projects.edges" />
     </div>
   </Layout>
