@@ -5,9 +5,7 @@ title: Flowers in the middle of snowflakes
 category: Identity
 thumbnail: "/uploads/49506453_10210350062827604_2240574603124539392_n.jpg"
 categories:
-- photography
-- pink
-- homepage
+- canvas
 project_bg_color: ''
 project_fg_color: ''
 
