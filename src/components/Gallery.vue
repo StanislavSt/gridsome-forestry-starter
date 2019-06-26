@@ -1,8 +1,10 @@
 <template>
   <div>
-  <button v-on:click="filter('reproduction')">Reproduction</button>
-  <button v-on:click="filter('*')">All</button>
-  <button v-on:click="filter('tag2')">Tag 2</button>
+    <div class="category">
+    <button v-on:click="filter('all')">All</button>
+    <button v-on:click="filter('reproduction')">Reproduction</button>
+    <button v-on:click="filter('canvas')">Canvas</button>
+    </div>
     <div class="projects">
         <div class="project" v-for="item in filtered(this.category)" :key="item.node.id">
             <g-link :to="item.node.path" class="project-link">
@@ -44,7 +46,13 @@ export default {
     methods: {
        filtered(id){
         return this.projects.filter(function(value){
+          if(id == 'all')
+          {
+            return value;
+          }
+          else{
             return value.node.categories == id
+          }
         })
       },
       filter: function(tag) {
@@ -55,6 +63,12 @@ export default {
 </script>
 
 <style scoped>
+.category {
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+}
 .projects {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
