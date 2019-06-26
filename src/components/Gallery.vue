@@ -1,6 +1,10 @@
 <template>
+  <div>
+  <button v-on:click="filter('reproduction')">Reproduction</button>
+  <button v-on:click="filter('*')">All</button>
+  <button v-on:click="filter('tag2')">Tag 2</button>
     <div class="projects">
-        <div class="project" v-for="item in projects" :key="item.node.id">
+        <div class="project" v-for="item in filtered(this.category)" :key="item.node.id">
             <g-link :to="item.node.path" class="project-link">
             <g-image
                 :src="item.node.thumbnail"
@@ -14,6 +18,7 @@
             </g-link>
         </div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -23,7 +28,29 @@ export default {
             type: Array,
             required: true
         }
+    },
+    data: function(){
+      return {
+        category: 'reproduction'
+        }
+    },
+    /*computed:{
+      filteredProjects(){
+        return this.projects.filter(function(value){
+            return value.node.categories == 'reproduction'
+        })
+      }
+    },*/
+    methods: {
+       filtered(id){
+        return this.projects.filter(function(value){
+            return value.node.categories == id
+        })
+      },
+      filter: function(tag) {
+      this.category = tag;
     }
+  }
 }
 </script>
 
