@@ -36,13 +36,13 @@ fields:
     color_format: Hex
   label: Foreground color
 pages:
+- projects/bang-bang.md
 - projects/reproduction-5.md
 - projects/reproduction-4.md
 - projects/reproduction-3.md
 - projects/reproduction-2.md
 - projects/reproduction-1.md
 - journal/my-new-event.md
-- projects/bang-bang.md
 - projects/water-colors.md
 - projects/oil-n-gold-l.md
 - projects/chelsea-landmark.md
