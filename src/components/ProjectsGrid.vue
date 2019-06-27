@@ -1,4 +1,5 @@
 <template>
+  <div class="categories">
     <div class="projects">
         <div class="project" v-for="item in projects" :key="item.node.id">
           <div v-if="item.node.categories == 'reproduction'">
@@ -9,13 +10,14 @@
                 class="thumbnail"
             />
             <h3 class="project-title">{{ item.node.title }}</h3>
-            <div class="categories">
+            <!--<div class="categories">
                 <span class="category" v-for="(item, index) in item.node.categories" :key="index">{{ item }}</span>
-            </div>
+            </div>-->
             </g-link>
           </div>
         </div>
     </div>
+  </div>
 </template>
 
 <script>

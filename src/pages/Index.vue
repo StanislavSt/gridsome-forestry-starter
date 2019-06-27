@@ -1,8 +1,6 @@
 <template>
   <Layout>
     <div class="container">
-      <Hero />
-      <Carousel/>
       <ProjectsGrid :projects="$page.projects.edges" />
     </div>
     <LatestJournals :journals="$page.journals.edges" />
