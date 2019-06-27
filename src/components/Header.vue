@@ -1,15 +1,17 @@
 <template>
     <header class="header" :class="{sticky: $route.path === '/' || $route.path.includes('/projects/')}">
-        <div class="container">
-            <div class="left">
+        <div class="container-logo">
+            <div class="logo-container">
                 <g-link :to="{ name: 'home' }" class="home-link">
                     <img 
-                        src="../../static/thealogo.png"
+                        src="../../static/Thea_Logo_Black.svg"
                         :alt="settings.site_name" 
                         class="logo"
                     />
                 </g-link>
             </div>
+        </div>
+        <div class="container">
             <nav class="nav right">
                 <g-link class="nav__link" :to="{ name: 'artworks' }">Artworks</g-link>
                 <g-link class="nav__link" :to="{ name: 'journal' }">News</g-link>
@@ -36,9 +38,10 @@ export default {
     position: relative;
     height: 6rem;
     z-index: 10;
+    margin-bottom: 4rem;
 }
 .header.sticky {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -48,12 +51,26 @@ export default {
     align-items: center;
     justify-content: space-between;
     height: 100%;
+    border-bottom: groove;
+}
+.container-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 .home-link {
     text-decoration: none;
 }
 .logo {
-    height: 4.5rem;
+    height: 7.5rem;
+}
+.logo-container{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 .site-name {
     font-size: 0.9rem;
