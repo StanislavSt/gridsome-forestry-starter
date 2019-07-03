@@ -66,7 +66,7 @@ export default {
   padding: 20vh 0 4rem 0;
 }
 .project-title {
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 0 0 4rem 0;
   padding: 0;
 }
@@ -86,5 +86,10 @@ export default {
 }
 .category:last-of-type:after {
   content: '';
+}
+@media only screen and (max-width: 768px) {
+.project-title {
+    font-size: 1.8rem;
+}
 }
 </style>
