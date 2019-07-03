@@ -2,7 +2,8 @@
 date: 2020
 thumbnail: "/uploads/Reproduction1.jpg"
 title: Reproduction 1
-categories: []
+categories:
+- reproduction
 project_bg_color: ''
 project_fg_color: ''
 
