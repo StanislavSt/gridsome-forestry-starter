@@ -4,7 +4,7 @@
     <div class="container">
       <div class="journal-hero">
         <h1 class="journal-header">
-          Thea's News and Events
+          Thea's latest exhibitions
         </h1>
       </div>
     </div>
@@ -57,7 +57,7 @@ export default {
 .journal-hero {
   padding: 4rem 0;
   text-align: center;
-  color: var(--color-base-1);
+
 }
 .journal-thumbnail {
   height: 260px;
