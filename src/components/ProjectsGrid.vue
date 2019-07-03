@@ -78,5 +78,20 @@ export default {
     grid-column: auto / span 2;
   }
 }
+@media (max-width: 920px) {
+  .project {
+    grid-column: auto / span 1;
+  }
+  .project:nth-child(3n+1) {
+    grid-column: auto / span 2;
+  }
+  .projects{
+    padding-top: 5rem;
+    grid-gap: 2rem;
+  }
+  .thumbnail {
+  height: 260px;
+}
+}
 
 </style>
