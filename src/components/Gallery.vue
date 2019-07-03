@@ -118,7 +118,7 @@ input[type="submit"]:hover,
     text-align: center;
     max-width: 100%;
     margin: 0 auto;
-    padding: 8rem 0 3rem 2rem;
+    padding: 8rem 0 3rem 0rem;
 }
 .projects {
   display: grid;
