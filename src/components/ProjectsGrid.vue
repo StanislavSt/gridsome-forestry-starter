@@ -1,8 +1,8 @@
 <template>
   <div class="categories">
     <div class="projects">
-        <div class="project" v-for="item in projects" :key="item.node.id">
-          <div v-if="item.node.categories == 'reproduction'">
+        <div class="project" v-for="item in projects.slice(0,6)" :key="item.node.id">
+          <div v-if="item.node.categories == 'canvas'">
             <g-link :to="item.node.path" class="project-link">
             <g-image
                 :src="item.node.thumbnail"
