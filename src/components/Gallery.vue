@@ -4,7 +4,7 @@
       <a v-on:click="filter('all')" class="btn btn-dark" >All</a>
       <a v-on:click="filter('reproduction')" class="btn btn-dark" >Reproduction</a>
       <a v-on:click="filter('canvas')" class="btn btn-dark" >Canvas</a>
-      <a v-on:click="filter('canvas')" class="btn btn-dark" >Print</a>
+      <a v-on:click="filter('print')" class="btn btn-dark" >Print</a>
     </div>
     <div class="projects">
         <div class="project" v-for="item in filtered(this.category)" :key="item.node.id">
@@ -47,12 +47,12 @@ export default {
     methods: {
        filtered(id){
         return this.projects.filter(function(value){
-          if(id == 'all')
+          if(id == 'all' && value.node.categories!='print')
           {
             return value;
           }
           else{
-            return value.node.categories == id
+            return value.node.categories == id;
           }
         })
       },
