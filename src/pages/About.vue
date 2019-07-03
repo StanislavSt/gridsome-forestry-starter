@@ -56,8 +56,8 @@ a.social{
   margin: 0.9rem;
 }
 img{
-  height: 80%;
-  width: 100%;
+  height: auto;
+  width:  auto;
 }
 .info{
   font-size: .8rem;
