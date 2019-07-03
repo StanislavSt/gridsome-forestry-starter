@@ -1,11 +1,11 @@
 ---
 date: 2020
-thumbnail: "/uploads/64520309_446043179309105_7533273638187827200_n.jpg"
+thumbnail: "/uploads/Reproduction1.jpg"
 title: Reproduction 1
 categories:
-- homepage
+- reproduction
 project_bg_color: ''
 project_fg_color: ''
 
 ---
-![](https://scontent-amt2-1.xx.fbcdn.net/v/t1.15752-9/64520309_446043179309105_7533273638187827200_n.jpg?_nc_cat=100&_nc_oc=AQlrrnFr_OGFjUT-p7kg0RUZO3b32-zbpVZOcEmS9pd9hMgdY_q-10TW_oe3sdaCMbQ&_nc_ht=scontent-amt2-1.xx&oh=8881a00e3710df60dfde7d5da89f6eb2&oe=5DC5F3C2)
+![](https://scontent-amt2-1.xx.fbcdn.net/v/t1.15752-9/s2048x2048/64806563_2352582361684305_4278774612164083712_n.jpg?_nc_cat=100&_nc_oc=AQnJgSOI1Wy8Js28AiT8m6Pvtws3O2ub-fb6QLAoceX1MEjqnGj-VN_C5dtxkgGveZQ&_nc_ht=scontent-amt2-1.xx&oh=f8d15379137c653f4bfd52f47f92058b&oe=5D7FCACC)

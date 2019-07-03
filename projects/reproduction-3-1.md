@@ -1,7 +1,7 @@
 ---
-date: 2019
-thumbnail: "/uploads/64824109_2911117999114357_5499923446089383936_n.jpg"
-title: Reproduction 4
+date: 2017
+thumbnail: "/uploads/Reproduction3.jpg"
+title: Reproduction 3
 categories:
 - reproduction
 project_bg_color: ''
