@@ -36,6 +36,7 @@ fields:
     color_format: Hex
   label: Foreground color
 pages:
+- projects/canvas-2.md
 - projects/canvas-1.md
 - projects/chelsea-landmark.md
 - projects/bang-bang.md
