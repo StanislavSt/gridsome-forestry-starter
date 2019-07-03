@@ -1,13 +1,13 @@
 ---
 date: 2019
-thumbnail: "/uploads/48411574_10210233732719424_6738859401739763712_n.jpg"
-title: Thea's new event
-categories: []
+thumbnail: "/uploads/Canvas7.jpg"
+title: 2018 Solo exhibition "Debut"
+categories:
+- journal
 project_bg_color: ''
 project_fg_color: ''
 
 ---
-<h2> My new artwork is out <h2>
+<h2> 2018 Solo exhibition "Debut", gallery "Bulgari", Sofia, Bulgaria.<h2>
 
-  
-![](https://app.forestry.io/sites/ldzcni2xb8659w/front-matter-media//uploads/48411574_10210233732719424_6738859401739763712_n.jpg)
+![](https://scontent-amt2-1.xx.fbcdn.net/v/t1.15752-9/65458249_488341585252756_3460282183464255488_n.jpg?_nc_cat=110&_nc_oc=AQkHZQgRgDdiXYWaYbTTMuRLqID11PYEysFVw6meNP8TnsY1AmOVnlZAX4hwsHmgnbc&_nc_ht=scontent-amt2-1.xx&oh=7414d78844ae7870b3102a93c93d5d68&oe=5DBF8E4B)
