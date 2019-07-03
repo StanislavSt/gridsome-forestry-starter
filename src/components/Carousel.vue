@@ -1,6 +1,7 @@
 <template>
+<ClientOnly>
   <div class="container-carousel">
-    <!--<carousel :per-page="1" :navigate-to="someLocalProperty" :mouse-drag="false" :autoplay="true">
+    <carousel :per-page="1" :navigate-to="someLocalProperty" :mouse-drag="false" :autoplay="true">
       <slide class="example-slide">
         <img 
             src="../../static/Thea_About.jpg"
@@ -11,21 +12,27 @@
             src="../../static/Thea_Contact.jpg"
         />
       </slide>
-    </carousel>-->
+    </carousel>
   </div>
+</ClientOnly>
 </template>
 
 <script>
-//import { Carousel, Slide } from 'vue-carousel';
 export default {
   data() {
     return {
     }
   },
   components: {
-    //Carousel,
-    //Slide
-  }
+      Carousel: () =>
+        import ('vue-carousel')
+        .then(m => m.Carousel)
+        .catch(),
+      Slide: () =>
+        import ('vue-carousel')
+        .then(m => m.Slide)
+        .catch()
+    },
 }
 </script>
 

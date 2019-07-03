@@ -13,6 +13,7 @@
     "bootstrap": "^4.3.1",
     "gridsome": "^0.5.7",
     "jquery": "^3.4.1",
-    "popper.js": "^1.15.0"
+    "popper.js": "^1.15.0",
+    "vue-carousel": "^0.18.0"
   }
 }
