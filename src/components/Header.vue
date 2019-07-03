@@ -56,6 +56,7 @@ export default {
     justify-content: space-between;
     height: 100%;
     border-bottom: groove;
+    border-spacing: 15rem;
 }
 .container-logo{
     display: flex;
@@ -118,7 +119,7 @@ export default {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: flex-end;
-    padding-bottom: 1rem;
+    padding-bottom: 8rem;
     margin-top: 3.5rem;
     }
     .header{
