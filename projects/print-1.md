@@ -2,7 +2,8 @@
 date: 2019
 thumbnail: "/uploads/Canvas7.jpg"
 title: Print 1
-categories: []
+categories:
+- print
 project_bg_color: ''
 project_fg_color: ''
 
