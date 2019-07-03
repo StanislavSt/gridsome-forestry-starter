@@ -56,7 +56,7 @@ a.social{
   margin: 0.9rem;
 }
 img{
-  height: 90%;
+  height: 100%;
   width: 100%;
 }
 .info{
