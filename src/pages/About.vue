@@ -56,8 +56,8 @@ a.social{
   margin: 0.9rem;
 }
 img{
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  width: 80%;
 }
 .info{
   font-size: .8rem;
@@ -86,7 +86,7 @@ span{
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1.3fr 1fr;
+  grid-template-columns: 1.2fr 1fr;
   grid-template-areas: ". .";
   grid-gap: 5%;
 }
