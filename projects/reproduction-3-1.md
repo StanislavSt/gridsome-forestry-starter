@@ -2,7 +2,8 @@
 date: 2017
 thumbnail: "/uploads/Reproduction3.jpg"
 title: Reproduction 3
-categories: []
+categories:
+- reproduction
 project_bg_color: ''
 project_fg_color: ''
 
