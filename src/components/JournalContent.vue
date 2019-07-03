@@ -1,8 +1,10 @@
 <template>
+    <div class="journal-container">
     <div 
         class="journal-content"
         v-html="content"
     />
+    </div>
 </template>
 
 <script>
@@ -14,6 +16,9 @@ export default {
 </script>
 
 <style>
+.journal-container{
+    padding-top: 6rem;
+}
 p {
     line-height: 1.5;
     font-size: 1.15rem;

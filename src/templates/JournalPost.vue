@@ -62,7 +62,7 @@ export default {
   padding: 2rem 0 4rem 0;
 }
 .journal-title {
-  font-size: 4rem;
+  font-size: 2rem;
   margin: 0 0 4rem 0;
   padding: 0;
 }

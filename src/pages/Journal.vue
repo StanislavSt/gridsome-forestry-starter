@@ -1,14 +1,12 @@
 <template>
   <Layout>
-
     <div class="container">
       <div class="journal-hero">
         <h1 class="journal-header">
-          Thea's latest exhibitions
+          Exhibitions 
         </h1>
       </div>
     </div>
-
     <g-link 
       :to="item.node.path"
       v-for="item in $page.posts.edges" 
@@ -57,7 +55,6 @@ export default {
 .journal-hero {
   padding: 4rem 0;
   text-align: center;
-
 }
 .journal-thumbnail {
   height: 260px;
@@ -66,7 +63,7 @@ export default {
   box-shadow: 0 0 40px -20px rgba(0,0,0,0.25);
 }
 .journal-header {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   padding: 0;
   margin: 0;
@@ -92,8 +89,8 @@ export default {
   padding: 0;
 }
 .journal-title {
-  font-size: 2rem;
-  color: var(--color-contrast);
+  font-size: 1rem;
+  color: var(--color-contrast-1);
 }
 .journal-excerpt {
   color: var(--color-contrast-1);
