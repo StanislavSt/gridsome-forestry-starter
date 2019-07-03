@@ -1,6 +1,6 @@
 ---
 date: 2019
-thumbnail: "/uploads/Canvas5"
+thumbnail: "/uploads/Canvas5.jpg"
 title: Canvas 5
 categories:
 - canvas
