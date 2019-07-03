@@ -36,6 +36,7 @@ fields:
     color_format: Hex
   label: Foreground color
 pages:
+- projects/reproduction-6.md
 - projects/reproduction-5-1.md
 - projects/reproduction-4-1.md
 - projects/reproduction-3-1.md
