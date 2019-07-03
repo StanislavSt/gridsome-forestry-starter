@@ -57,7 +57,7 @@ a.social{
 }
 img{
   height: 80%;
-  width: 80%;
+  width: 100%;
 }
 .info{
   font-size: .8rem;
