@@ -14,7 +14,7 @@
         <div class="container">
             <nav class="nav left">
                 <g-link class="nav__link" :to="{ name: 'artworks' }">Artworks</g-link>
-                <!--<g-link class="nav__link" :to="{ name: 'journal' }">News</g-link>-->
+                <g-link class="nav__link" :to="{ name: 'journal' }">Exhibitions</g-link>
                 <g-link class="nav__link" :to="{ name: 'contact' }">Contact</g-link>
                 <g-link class="nav__link" :to="{ name: 'about' }">About</g-link>
             </nav>
