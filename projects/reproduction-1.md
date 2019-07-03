@@ -1,6 +1,6 @@
 ---
 date: 2020
-thumbnail: "/uploads/64520309_446043179309105_7533273638187827200_n.jpg"
+thumbnail: "/uploads/Reproduction1.jpg"
 title: Reproduction 1
 categories:
 - homepage
