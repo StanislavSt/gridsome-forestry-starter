@@ -8,4 +8,4 @@ project_bg_color: ''
 project_fg_color: ''
 
 ---
-![](/uploads/Canvas10.jpg)
+![My Text](/uploads/Canvas10.jpg "My Title")
