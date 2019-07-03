@@ -1,9 +1,10 @@
 <template>
   <div>
     <div class="category">
-    <a v-on:click="filter('all')" class="btn btn-dark" >All</a>
-    <a v-on:click="filter('reproduction')" class="btn btn-dark" >Reproduction</a>
-    <a v-on:click="filter('canvas')" class="btn btn-dark" >Canvas</a>
+      <a v-on:click="filter('all')" class="btn btn-dark" >All</a>
+      <a v-on:click="filter('reproduction')" class="btn btn-dark" >Reproduction</a>
+      <a v-on:click="filter('canvas')" class="btn btn-dark" >Canvas</a>
+      <a v-on:click="filter('canvas')" class="btn btn-dark" >Print</a>
     </div>
     <div class="projects">
         <div class="project" v-for="item in filtered(this.category)" :key="item.node.id">
@@ -63,6 +64,7 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
 /*------------------------------------------------------*/
 /* BUTTONS */
 /*------------------------------------------------------*/
@@ -70,13 +72,13 @@ export default {
 input[type="submit"]{
 	cursor: pointer;
     border-radius: 0px;
-    text-decoration: none;
     padding: 12px 18px;
     font-size: 12px;
     line-height: 19px;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif; font-weight:400;
-    letter-spacing: 3px;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
     -webkit-transition: all .4s ease-in-out;
        -moz-transition: all .4s ease-in-out;
         -ms-transition: all .4s ease-in-out;
@@ -101,9 +103,8 @@ input[type="submit"]{
 .btn-dark:hover,
 input[type="submit"]:hover,
 .btn-dark.active{
-    border:solid 1px #1f1f1f;
-    background: #1f1f1f;
-    color: #fff;
+    font-size: 13px;
+    background: 	#E8E8E8;
 }
 
 .btn-color{
@@ -117,7 +118,7 @@ input[type="submit"]:hover,
     text-align: center;
     max-width: 100%;
     margin: 0 auto;
-    padding: 6rem 0 3rem 2rem;
+    padding: 3rem 0 3rem 2rem;
 }
 .projects {
   display: grid;
@@ -163,6 +164,12 @@ input[type="submit"]:hover,
   }
   .project:nth-child(3n+1) {
     grid-column: auto ;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .category{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
   }
 }
 

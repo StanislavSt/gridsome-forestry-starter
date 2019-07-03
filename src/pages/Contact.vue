@@ -1,31 +1,42 @@
 <template>
   <Layout>
     <div class="container">
-
+    <img 
+                        src="../../static/Thea_Contact.jpg"
+                    />
       <div class="contact-header">
-        <h1 class="contact-title">Say hi!</h1>
-        <p>Leave me a note with any questions you might have, I'll get back to you as soon as possible.</p>
+        <p>
+          +
+          <a href="http://www.instagram.com"> INSTAGRAM </a>
+        </p>
+        <p>
+          EMAIL: 
+          <a class="social"> 
+            EMAIL@GMAIL.COM
+          </a>
+          OR FILL IN THE FORM BELOW.
+        </p>
       </div>
 
       <form class="contact-form" name="contact">
 
         <div class="sender-info">
           <div>
-            <label for="name" class="label">Your name</label>
+            <label for="name" class="label">YOUR NAME *</label>
             <input type="text" name="name" />
           </div>
           <div>
-            <label for="email" class="label">Your email</label>
+            <label for="email" class="label">YOUR EMAIL *</label>
             <input type="email" name="email" />
           </div>
         </div>
 
         <div class="message">
-          <label for="message" class="label">Message</label>
+          <label for="message" class="label">MESSAGE *</label>
           <textarea name="message"></textarea>
         </div>
 
-        <button class="button">Submit form</button>
+        <button class="button">SEND</button>
 
       </form>
 
@@ -38,11 +49,33 @@ export default {}
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+*{
+    font-family: 'Karla', sans-serif;
+}
+p{
+  font-size: .9rem;
+  color:gray
+}
+a{
+  margin: 0.3rem;
+  color:black
+}
+a.social{
+  margin: 0.9rem;
+}
+img{
+  height: 55%;
+  width: 55%;
+}
+.container{
+  padding-top: 5rem;
+}
 .contact-header {
-  padding: 5rem 0 4rem 0;
+  padding: 3rem 0 2rem 0;
 }
 .contact-title {
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 0 0 4rem 0;
   padding: 0;
 }
@@ -80,20 +113,26 @@ textarea {
   background: var(--color-contrast);
   outline: none;
   border: 0;
-  font-size: 0.8rem;
-  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+  padding: 0.5rem 1.1rem;
   border-radius: 0.3rem;
   margin-top: 2rem;
   cursor: pointer;
   transition: opacity 0.25s ease;
   font-size: 500;
-  letter-spacing: 0.035em;
+  letter-spacing: 0.115em;
 }
 .button:hover {
   opacity: 0.6;
 }
 .button:focus {
   border: 1px solid var(--color-base-1);
+}
+@media only screen and (max-width: 768px) {
+  img{
+  height: 100%;
+  width: 100%;
+  }
 }
 </style>
 

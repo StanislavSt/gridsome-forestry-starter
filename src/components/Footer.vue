@@ -35,8 +35,16 @@ export default {
     font-size: 0.8rem;
     padding: 6rem 0;
 }
+.container{
+    border-top: groove;
+    padding-top: 2rem;
+}
 .social{
     float:right;
-    height: 1.9rem;
+    height: 2.4rem;
+    position: relative;
+    /* Adjust these values accordingly */
+    bottom: 12px;
+    left: 5px;
 }
 </style>

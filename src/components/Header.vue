@@ -12,11 +12,14 @@
             </div>
         </div>
         <div class="container">
-            <nav class="nav right">
+            <nav class="nav left">
                 <g-link class="nav__link" :to="{ name: 'artworks' }">Artworks</g-link>
                 <g-link class="nav__link" :to="{ name: 'journal' }">News</g-link>
                 <g-link class="nav__link" :to="{ name: 'contact' }">Contact</g-link>
                 <g-link class="nav__link" :to="{ name: 'about' }">About</g-link>
+            </nav>
+            <nav class="nav right">
+                <g-link class="nav_language" >EN / BG</g-link>
             </nav>
         </div>
     </header>
@@ -34,11 +37,12 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 .header {
     position: relative;
     height: 6rem;
     z-index: 10;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
 }
 .header.sticky {
     position: relative;
@@ -80,8 +84,10 @@ export default {
     text-transform: uppercase;   
 }
 .nav > * {
-    font-size: 0.9rem;
-    font-weight: 600;
+    font-family: "Helvetica",arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    font-weight: bold;
     text-decoration: none;
     margin-top: 4px;
     margin-right: 3rem;
@@ -95,8 +101,32 @@ export default {
 }
 .nav > *:hover {
     border-color: inherit;
+    color: gray;
 }
 .nav > .active {
     border-color: inherit;
+    color: gray;
+}
+@media only screen and (max-width: 768px) {
+
+    .nav > * {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        border-bottom: none;
+    }
+    .header > .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+    margin-top: 3.5rem;
+    }
+    .header{
+    margin-bottom: 9rem;
+    }
+    .nav_language{
+        display:block;
+        text-align:end;
+    }
 }
 </style>
