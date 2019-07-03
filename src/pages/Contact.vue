@@ -2,7 +2,7 @@
   <Layout>
     <div class="container">
     <img 
-                        src="../../static/Thea_Contact.jpg"
+                        src="../../static/Thea_About.jpg"
                     />
       <div class="contact-header">
         <p>

@@ -3,7 +3,7 @@
     <div class="container grid-container">
       <div class="contact-header">
         <img 
-                        src="../../static/Thea_About.jpg"
+                        src="../../static/Thea_Contact.jpg"
                     />
         <p class="info">
         <a>PHOTO</a>: 2018 Solo exhibition "Debut" : gallery "Bulgari"
@@ -56,7 +56,7 @@ a.social{
   margin: 0.9rem;
 }
 img{
-  height: 80%;
+  height: 90%;
   width: 100%;
 }
 .info{
