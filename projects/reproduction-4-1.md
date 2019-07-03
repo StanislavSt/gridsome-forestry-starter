@@ -2,7 +2,8 @@
 date: 2019
 thumbnail: "/uploads/Reproduction4.jpg"
 title: Reproduction 4
-categories: []
+categories:
+- reproduction
 project_bg_color: ''
 project_fg_color: ''
 
