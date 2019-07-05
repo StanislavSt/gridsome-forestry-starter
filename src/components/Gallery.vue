@@ -131,7 +131,7 @@ input[type="submit"]:hover,
 .category {
     text-align: center;
     max-width: 100%;
-    padding: 1rem 0 3rem 0rem;
+    padding: 0rem 0 3rem 0rem;
 }
 .projects {
   display: grid;
@@ -161,7 +161,7 @@ input[type="submit"]:hover,
   color: var(--color-contrast-1);
 }
 .category {
-  margin-right: 0.8rem;
+
 }
 .category:last-of-type {
   margin: 0;
