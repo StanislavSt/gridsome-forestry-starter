@@ -36,6 +36,7 @@ fields:
     color_format: Hex
   label: Foreground color
 pages:
+- projects/canvas-6.md
 - projects/reproduction-7.md
 - projects/reproduction-6.md
 - projects/reproduction-5-1.md
@@ -48,7 +49,6 @@ pages:
 - projects/canvas-9.md
 - projects/canvas-8.md
 - projects/canvas-7.md
-- projects/canvas-6.md
 - projects/canvas-5.md
 - projects/canvas-4.md
 - projects/canvas-3.md
