@@ -68,9 +68,6 @@ img{
   height: 55%;
   width: 55%;
 }
-.container{
-  padding-top: 5rem;
-}
 .contact-header {
   padding: 3rem 0 2rem 0;
 }

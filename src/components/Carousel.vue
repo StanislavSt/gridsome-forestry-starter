@@ -1,8 +1,10 @@
 <template>
 <ClientOnly>
   <div class="container-carousel">
-    <carousel :per-page="1" :navigate-to="someLocalProperty" :mouse-drag="false" :autoplay="true">
+    <carousel :per-page="1" :navigate-to="someLocalProperty" :mouse-drag="false" :autoplay="true" 
+    :centerMode="true" :autoplayTimeout="3000">
       <slide class="example-slide">
+        <div class="bottom-right">2018 Solo exhibition "Debut", gallery "Bulgari", Sofia, Bulgaria</div>
         <img 
             src="../../static/Thea_About.jpg"
         />
@@ -69,7 +71,15 @@ export default {
 {
   height:30rem;
 }
-
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color:white;
+}
+.container-carousel{
+  padding-bottom: 3rem;
+}
 @media only screen and (max-width: 768px) {
   .example-slide
   {

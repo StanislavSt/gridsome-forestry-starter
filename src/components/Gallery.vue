@@ -1,9 +1,8 @@
 <template>
   <div>
     <div class="category">
-      <a v-on:click="filter('all')" class="btn btn-dark" >All</a>
-      <a v-on:click="filter('reproduction')" class="btn btn-dark" >Reproduction</a>
       <a v-on:click="filter('canvas')" class="btn btn-dark" >Canvas</a>
+      <a v-on:click="filter('reproduction')" class="btn btn-dark" >Reproduction</a>
       <a v-on:click="filter('print')" class="btn btn-dark" >Print</a>
     </div>
     <div class="projects">
@@ -117,8 +116,7 @@ input[type="submit"]:hover,
 .category {
     text-align: center;
     max-width: 100%;
-    margin: 0 auto;
-    padding: 8rem 0 3rem 0rem;
+    padding: 1rem 0 3rem 0rem;
 }
 .projects {
   display: grid;

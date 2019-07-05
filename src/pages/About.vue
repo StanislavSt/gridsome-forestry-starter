@@ -68,9 +68,6 @@ img{
 .about{
   float:right;
 }
-.container{
-  padding-top: 6rem;
-}
 .contact-title {
   font-size: 3rem;
   margin: 0 0 4rem 0;

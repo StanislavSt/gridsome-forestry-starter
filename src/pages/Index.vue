@@ -2,6 +2,9 @@
   <Layout>
     <div class="container">
       <Carousel/>
+      <div class="hero-subtitle">
+        Latest Artworks
+      </div>
       <ProjectsGrid :projects="$page.projects.edges" />
     </div>
     <LatestJournals :journals="$page.journals.edges" />
@@ -52,6 +55,15 @@ export default {
 
 <style scoped>
 .container{
-  padding-top:5rem;
+  padding-top:0rem;
+}
+.hero-subtitle{
+  text-align: center;
+    font-size: 1.35rem;
+    font-weight: 400;
+    line-height: 1.68;
+    padding: 0;
+    margin: 0;
+    opacity: 0.6;
 }
 </style>

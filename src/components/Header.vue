@@ -42,7 +42,7 @@ export default {
     position: relative;
     height: 6rem;
     z-index: 10;
-    margin-bottom: 5rem;
+    margin-bottom: 12rem;
 }
 .header.sticky {
     position: relative;
@@ -123,7 +123,7 @@ export default {
     margin-top: 3.5rem;
     }
     .header{
-    margin-bottom: 9rem;
+        margin-bottom: 14rem;
     }
     .nav_language{
         display:block;

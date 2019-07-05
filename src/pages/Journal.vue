@@ -1,12 +1,10 @@
 <template>
   <Layout>
-    <div class="container">
       <div class="journal-hero">
         <h1 class="journal-header">
           Exhibitions 
         </h1>
       </div>
-    </div>
     <g-link 
       :to="item.node.path"
       v-for="item in $page.posts.edges" 
@@ -53,7 +51,7 @@ export default {
   max-width: 720px;
 }
 .journal-hero {
-  padding: 4rem 0;
+  padding-bottom: 3rem;
   text-align: center;
 }
 .journal-thumbnail {
@@ -65,8 +63,6 @@ export default {
 .journal-header {
   font-size: 2rem;
   font-weight: 700;
-  padding: 0;
-  margin: 0;
 }
 .journal-post {
   display: block;
@@ -104,7 +100,7 @@ export default {
 
 @media (min-width: 860px) {
   .journal-post {
-    padding: 5rem 0;
+    padding: 0rem 0;
   }
 }
 </style>
