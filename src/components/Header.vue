@@ -114,17 +114,17 @@ export default {
         display:grid;
         grid-template-columns: 1fr 1fr;
         border-bottom: none;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.9rem;
     }
     .header > .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: flex-end;
-    padding-bottom: 8rem;
+    padding-bottom: 10rem;
     margin-top: 3.5rem;
     }
     .header{
-        margin-bottom: 14rem;
+        margin-bottom: 17rem;
     }
     .nav_language{
         display:block;
