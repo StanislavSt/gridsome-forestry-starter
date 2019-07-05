@@ -1,6 +1,6 @@
 <template>
   <Layout>
-      <div class="journal-hero">
+      <div class="journal-container">
         <h1 class="journal-header">
           Exhibitions 
         </h1>
@@ -49,7 +49,7 @@ export default {
 .container.journal {
   max-width: 720px;
 }
-.journal-hero {
+.journal-container{
   padding-bottom: 3rem;
   text-align: center;
 }
