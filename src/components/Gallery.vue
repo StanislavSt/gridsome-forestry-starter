@@ -8,7 +8,7 @@
     <div class="projects">
         <div class="project" v-for="item in filtered(this.category)" :key="item.node.id">
           <!-- Sold artworks-->
-          <div class="sold" v-if="item.node.categories.includes('sold')">
+          <div class="sold" v-if="item.node.categories.includes('sold') && ((category == 'all') || (category == 'canvas')) && !item.node.categories.includes('reproduction')">
             <div class="image-container">
               <g-link :to="item.node.path" class="project-link">
               <g-image
@@ -19,7 +19,16 @@
               <div class="centered">SOLD</div>
               </g-link>
               </div>
-              <!--<h3 class="project-title">{{ item.node.title }}</h3>-->
+            </div>
+            <!-- Prints -->
+            <div class="print" v-else-if="category =='print'">
+              <g-link :to="item.node.path" class="project-link">
+              <g-image
+                  :src="item.node.thumbnail"
+                  :alt="item.node.title"
+                  class="thumbnail"
+              />
+              </g-link>
             </div>
             <!-- In stock artworks-->
             <div class="instock" v-else>
@@ -29,7 +38,6 @@
                   :alt="item.node.title"
                   class="thumbnail"
               />
-              <!--<h3 class="project-title">{{ item.node.title }}</h3>-->
               </g-link>
             </div>
         </div>
@@ -50,17 +58,10 @@ export default {
         category: 'all'
         }
     },
-    /*computed:{
-      filteredProjects(){
-        return this.projects.filter(function(value){
-            return value.node.categories == 'reproduction'
-        })
-      }
-    },*/
     methods: {
        filtered(id){
         return this.projects.filter(function(value){
-          if(id == 'all' && !value.node.categories.includes('print'))
+          if(id == 'all')
           {
             return value;
           }

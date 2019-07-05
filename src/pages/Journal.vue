@@ -20,8 +20,7 @@
         <h2 class="journal-title">{{ item.node.title }}</h2>
         <p class="journal-excerpt">{{ item.node.excerpt }}</p>
       </div>
-    </g-link>
-      
+    </g-link> 
   </Layout>
 </template>
 
