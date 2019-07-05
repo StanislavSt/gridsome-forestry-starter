@@ -10,7 +10,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .subtitle{
   text-align: center;
     font-size: 1.35rem;

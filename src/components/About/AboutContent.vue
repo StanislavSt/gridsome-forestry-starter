@@ -38,7 +38,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 @import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
 *{
     font-family: 'Karla', sans-serif;

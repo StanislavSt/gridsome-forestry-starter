@@ -15,7 +15,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .journal-container{
     padding-top: 6rem;
 }
