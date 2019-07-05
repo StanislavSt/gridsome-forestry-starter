@@ -9,7 +9,7 @@
         <div class="project" v-for="item in filtered(this.category)" :key="item.node.id">
           <!-- Sold artworks-->
           <div class="sold" v-if="item.node.categories.includes('sold') && ((category == 'all') || (category == 'canvas')) && !item.node.categories.includes('reproduction')">
-            <div class="image-container">
+            <div class="image-text">
               <g-link :to="item.node.path" class="project-link">
               <g-image
                   :src="item.node.thumbnail"
@@ -160,9 +160,6 @@ input[type="submit"]:hover,
   font-size: 0.8rem;
   color: var(--color-contrast-1);
 }
-.category {
-
-}
 .category:last-of-type {
   margin: 0;
 }
@@ -177,7 +174,7 @@ input[type="submit"]:hover,
   transform: translate(-50%, -50%);
   opacity: 1;
 }
-.image-container{
+.image-text{
   position: relative;
   text-align: center;
   color: white;
