@@ -1,26 +1,20 @@
 <template>
   <Layout>
-      <div class="journal-container">
-        <h1 class="journal-header">
-          Exhibitions 
-        </h1>
-      </div>
-    <g-link 
+    <div class="journal-container">
+      <h1 class="journal-header">Exhibitions</h1>
+    </div>
+    <g-link
       :to="item.node.path"
-      v-for="item in $page.posts.edges" 
+      v-for="item in $page.posts.edges"
       :key="item.node.id"
       class="journal-post"
     >
       <div class="container journal">
-        <g-image
-                :src="item.node.thumbnail"
-                :alt="item.node.title"
-                class="journal-thumbnail"
-            />
+        <g-image :src="item.node.thumbnail" :alt="item.node.title" class="journal-thumbnail" />
         <h2 class="journal-title">{{ item.node.title }}</h2>
         <p class="journal-excerpt">{{ item.node.excerpt }}</p>
       </div>
-    </g-link> 
+    </g-link>
   </Layout>
 </template>
 
@@ -41,15 +35,14 @@ query Journal {
 </page-query>
 
 <script>
-export default {
-}
+export default {};
 </script>
 
 <style scoped>
 .container.journal {
   max-width: 720px;
 }
-.journal-container{
+.journal-container {
   padding-bottom: 3rem;
   text-align: center;
 }
@@ -57,7 +50,7 @@ export default {
   height: 260px;
   object-fit: cover;
   transition: all 0.15s ease;
-  box-shadow: 0 0 40px -20px rgba(0,0,0,0.25);
+  box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.25);
 }
 .journal-header {
   font-size: 2rem;
