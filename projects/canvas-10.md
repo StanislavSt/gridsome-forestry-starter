@@ -4,6 +4,7 @@ thumbnail: "/uploads/Canvas10.jpg"
 title: Canvas 10
 categories:
 - canvas
+- sold
 project_bg_color: ''
 project_fg_color: ''
 
