@@ -19,7 +19,7 @@
               <div class="centered">SOLD</div>
               </g-link>
               </div>
-              <h3 class="project-title">{{ item.node.title }}</h3>
+              <!--<h3 class="project-title">{{ item.node.title }}</h3>-->
             </div>
             <!-- In stock artworks-->
             <div class="instock" v-else>
@@ -29,7 +29,7 @@
                   :alt="item.node.title"
                   class="thumbnail"
               />
-              <h3 class="project-title">{{ item.node.title }}</h3>
+              <!--<h3 class="project-title">{{ item.node.title }}</h3>-->
               </g-link>
             </div>
         </div>
@@ -180,7 +180,7 @@ input[type="submit"]:hover,
   position: relative;
   text-align: center;
   color: white;
-  opacity:0.7;
+  opacity:0.8;
 }
 @media (min-width: 920px) {
   .project {
