@@ -4,6 +4,7 @@ thumbnail: "/uploads/48411574_10210233732719424_6738859401739763712_n.jpg"
 title: Oil N’Gold l
 categories:
 - canvas
+- sold
 project_bg_color: ''
 project_fg_color: ''
 
