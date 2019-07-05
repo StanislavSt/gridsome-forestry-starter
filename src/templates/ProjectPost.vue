@@ -1,19 +1,16 @@
 <template>
   <Layout>
     <div class="project">
-
       <div class="container">
-
         <div class="project-header">
           <h1 class="project-title" v-html="$page.post.title" />
           <div class="project-info">
-
             <div class="categories-container">
               <div class="categories">
                 <span class="label">Categories</span>
-                <span 
+                <span
                   class="category"
-                  v-for="(category, index) in $page.post.categories" 
+                  v-for="(category, index) in $page.post.categories"
                   :key="index"
                   v-text="category"
                 />
@@ -22,15 +19,13 @@
 
             <div class="year-container">
               <span class="label">Year</span>
-              <div v-html="$page.post.date"/>
+              <div v-html="$page.post.date" />
             </div>
           </div>
         </div>
 
         <div v-html="$page.post.content" class="content" />
-
       </div>
-
     </div>
   </Layout>
 </template>
@@ -50,15 +45,23 @@ query ProjectPost ($path: String!) {
 
 <script>
 export default {
-  metaInfo () {
+  metaInfo() {
     return {
       title: this.$page.post.title,
       bodyAttrs: {
-        style: `background-color: ${this.$page.post.projectBgColor ? this.$page.post.projectBgColor : 'var(--color-base)'}; color: ${this.$page.post.projectFgColor ? this.$page.post.projectFgColor : 'var(--color-contrast)'}`
+        style: `background-color: ${
+          this.$page.post.projectBgColor
+            ? this.$page.post.projectBgColor
+            : "var(--color-base)"
+        }; color: ${
+          this.$page.post.projectFgColor
+            ? this.$page.post.projectFgColor
+            : "var(--color-contrast)"
+        }`
       }
-    }
+    };
   }
-}
+};
 </script>
 
 <style scoped>
@@ -82,14 +85,14 @@ export default {
   margin: 0;
 }
 .category:after {
-  content: ', '
+  content: ", ";
 }
 .category:last-of-type:after {
-  content: '';
+  content: "";
 }
 @media only screen and (max-width: 768px) {
-.project-title {
+  .project-title {
     font-size: 1.8rem;
-}
+  }
 }
 </style>

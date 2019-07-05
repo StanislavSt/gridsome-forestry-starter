@@ -1,31 +1,31 @@
 <template>
-    <div class="container">
-        <div class="latest-journals-heading container">
-        <span class="label">Latest Exhibitions</span>
-        </div>
-        <div class="latest-journals">
-        <div class="container">
-            <g-link :to="item.node.path" class="journal" v-for="item in journals" :key="item.node.id">
-              <h3 class="journal-title">{{ item.node.title }}</h3>
-            </g-link>
-        </div>
-        </div>
+  <div class="container">
+    <div class="latest-journals-heading container">
+      <span class="label">Latest Exhibitions</span>
     </div>
+    <div class="latest-journals">
+      <div class="container">
+        <g-link :to="item.node.path" class="journal" v-for="item in journals" :key="item.node.id">
+          <h3 class="journal-title">{{ item.node.title }}</h3>
+        </g-link>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
-    props: {
-        journals: {
-            type: Array,
-            required: true
-        }
+  props: {
+    journals: {
+      type: Array,
+      required: true
     }
-}
+  }
+};
 </script>
 
 <style scoped>
-.container{
+.container {
   padding: 0 2rem;
 }
 .latest-journals-heading {
@@ -111,5 +111,4 @@ export default {
     border-bottom: 1px solid var(--color-base-1);
   }
 }
-
 </style>

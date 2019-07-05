@@ -11,16 +11,15 @@
             </div>-->
             <div class="journal-date">
               <span class="label">Date</span>
-              <div v-text="$page.post.date"/>
+              <div v-text="$page.post.date" />
             </div>
             <!--<div class="journal-time">
               <span class="label">Time</span>
               <span>{{ $page.post.timeToRead }} min read</span>
             </div>-->
-          </div>          
+          </div>
         </div>
         <JournalContent :content="$page.post.content" />
-
       </div>
     </div>
   </Layout>
@@ -38,23 +37,23 @@ query JournalPost ($path: String!) {
 </page-query>
 
 <script>
-import JournalContent from "@/components/JournalContent"
+import JournalContent from "@/components/JournalContent";
 
 export default {
   components: {
     JournalContent
   },
-  metaInfo () {
+  metaInfo() {
     return {
       title: this.$page.post.title
-    }
+    };
   }
-}
+};
 </script>
 
 <style scoped>
-.container{
-  padding-top:0rem;
+.container {
+  padding-top: 0rem;
 }
 .journal-container {
   max-width: 1200px;

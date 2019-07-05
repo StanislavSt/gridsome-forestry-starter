@@ -1,34 +1,29 @@
 <template>
-    <form 
-      class="contact-form" 
-      name="contact"
-      >
-        <div class="sender-info">
-          <div>
-            <label for="name" class="label">YOUR NAME *</label>
-            <input type="text" name="name" />
-          </div>
-          <div>
-            <label for="email" class="label">YOUR EMAIL *</label>
-            <input type="email" name="email" />
-          </div>
-        </div>
-        <div class="message">
-          <label for="message" class="label">MESSAGE *</label>
-          <textarea name="message"></textarea>
-        </div>
-        <button class="button">SEND</button>
-      </form>
+  <form class="contact-form" name="contact">
+    <div class="sender-info">
+      <div>
+        <label for="name" class="label">YOUR NAME *</label>
+        <input type="text" name="name" />
+      </div>
+      <div>
+        <label for="email" class="label">YOUR EMAIL *</label>
+        <input type="email" name="email" />
+      </div>
+    </div>
+    <div class="message">
+      <label for="message" class="label">MESSAGE *</label>
+      <textarea name="message"></textarea>
+    </div>
+    <button class="button">SEND</button>
+  </form>
 </template>
 
 <script>
 export default {
-    data(){
-        return{
-
-        }
-    }
-}
+  data() {
+    return {};
+  }
+};
 </script>
 
 <style scoped>
@@ -52,10 +47,12 @@ export default {
 .sender-info > div:last-of-type {
   margin: 0;
 }
-input:focus,textarea:focus {
+input:focus,
+textarea:focus {
   border-color: var(--color-contrast-1);
 }
-input,textarea {
+input,
+textarea {
   background: transparent;
   border: 1px solid var(--color-base-1);
   outline: none;
