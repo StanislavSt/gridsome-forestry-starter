@@ -45,9 +45,15 @@ export default {}
 }
 p{
     text-align: justify;
+    font-size: 1.1rem;
 }
 li{
     text-align: justify;
+    font-size: 1.1rem;
+    margin:0.5rem 0 0.5rem;
+}
+h2{
+  font-size: 1.5rem;
 }
 a{
   color:black
@@ -91,6 +97,18 @@ span{
 @media only screen and (max-width: 768px) {
   .grid-container{
     display:block;
+  }
+  p{
+    text-align: justify;
+    font-size: 0.9rem;
+  }
+  li{
+      text-align: justify;
+      font-size: 0.9rem;
+      margin:0.5rem 0 0.5rem;
+  }
+  h2{
+    font-size: 1.3rem;
   }
 }
 </style>
