@@ -114,6 +114,7 @@ export default {
         display:grid;
         grid-template-columns: 1fr 1fr;
         border-bottom: none;
+        margin-bottom: 0.5rem;
     }
     .header > .container {
     display: grid;
