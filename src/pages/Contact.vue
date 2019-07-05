@@ -1,8 +1,8 @@
 <template>
   <Layout>
     <div class="container">
-    <ContactContent/>
-    <ContactForm/>
+      <ContactContent />
+      <ContactForm />
     </div>
   </Layout>
 </template>
@@ -12,14 +12,13 @@ import ContactForm from "@/components/Contact/ContactForm.vue";
 import ContactContent from "@/components/Contact/ContactContent.vue";
 
 export default {
-  components:{
+  components: {
     ContactForm,
     ContactContent
   }
-}
+};
 </script>
 
 <style>
-
 </style>
 

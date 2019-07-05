@@ -1,8 +1,8 @@
 <template>
   <Layout>
     <div class="container">
-      <Carousel/>
-      <HomeSubtitle/>
+      <Carousel />
+      <HomeSubtitle />
       <ProjectsGrid :projects="$page.projects.edges" />
     </div>
     <LatestJournals :journals="$page.journals.edges" />
@@ -36,10 +36,10 @@ query Posts {
 </page-query>
 
 <script>
-import ProjectsGrid from "@/components/Home/ProjectsGrid.vue"
-import LatestJournals from "@/components/Home/LatestJournals.vue"
-import Carousel from "@/components/Home/Carousel.vue"
-import HomeSubtitle from "@/components/Home/HomeSubtitle.vue"
+import ProjectsGrid from "@/components/Home/ProjectsGrid.vue";
+import LatestJournals from "@/components/Home/LatestJournals.vue";
+import Carousel from "@/components/Home/Carousel.vue";
+import HomeSubtitle from "@/components/Home/HomeSubtitle.vue";
 
 export default {
   components: {
@@ -48,9 +48,8 @@ export default {
     Carousel,
     HomeSubtitle
   }
-}
+};
 </script>
 
-<style scoped>
-
+<style>
 </style>

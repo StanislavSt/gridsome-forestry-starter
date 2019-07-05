@@ -1,21 +1,20 @@
 <template>
-<layout>
-  <div class="container ">
-    <AboutContent/>
-  </div>
+  <layout>
+    <div class="container">
+      <AboutContent />
+    </div>
   </layout>
 </template>
 
 <script>
-import AboutContent from "@/components/About/AboutContent.vue"
+import AboutContent from "@/components/About/AboutContent.vue";
 export default {
-  components:{
-  AboutContent
+  components: {
+    AboutContent
   }
-}
+};
 </script>
 
-<style scoped>
-
+<style>
 </style>
 

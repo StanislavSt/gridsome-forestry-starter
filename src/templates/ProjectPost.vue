@@ -16,14 +16,12 @@
                 />
               </div>
             </div>
-
             <div class="year-container">
               <span class="label">Year</span>
               <div v-html="$page.post.date" />
             </div>
           </div>
         </div>
-
         <div v-html="$page.post.content" class="content" />
       </div>
     </div>
