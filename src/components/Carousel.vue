@@ -54,7 +54,7 @@ export default {
     padding: 0;
     margin: 0 0 2rem 0;
 }
-.hero-title p,
+
 .hero-subtitle p {
     margin: 0;
     padding: 0;
