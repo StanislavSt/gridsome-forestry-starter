@@ -2,7 +2,7 @@
   <div class="categories">
     <div class="projects">
         <div class="project" v-for="item in projects.slice(0,6)" :key="item.node.id">
-          <div v-if="item.node.categories == 'canvas'">
+          <div v-if="item.node.categories.includes('canvas')">
             <g-link :to="item.node.path" class="project-link">
             <g-image
                 :src="item.node.thumbnail"
@@ -86,7 +86,7 @@ export default {
     grid-column: auto / span 2;
   }
   .projects{
-    padding-top: 5rem;
+    padding-top: 1rem;
     grid-gap: 2rem;
   }
   .thumbnail {

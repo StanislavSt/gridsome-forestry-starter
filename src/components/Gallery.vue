@@ -7,17 +7,31 @@
     </div>
     <div class="projects">
         <div class="project" v-for="item in filtered(this.category)" :key="item.node.id">
-            <g-link :to="item.node.path" class="project-link">
-            <g-image
-                :src="item.node.thumbnail"
-                :alt="item.node.title"
-                class="thumbnail"
-            />
-            <h3 class="project-title">{{ item.node.title }}</h3>
-           <!-- <div class="categories">
-                <span class="category" v-for="(item, index) in item.node.categories" :key="index">{{ item }}</span>
-            </div>-->
-            </g-link>
+          <!-- Sold artworks-->
+          <div class="sold" v-if="item.node.categories.includes('sold')">
+            <div class="image-container">
+              <g-link :to="item.node.path" class="project-link">
+              <g-image
+                  :src="item.node.thumbnail"
+                  :alt="item.node.title"
+                  class="thumbnail"
+              />
+              <div class="centered">SOLD</div>
+              </g-link>
+              </div>
+              <h3 class="project-title">{{ item.node.title }}</h3>
+            </div>
+            <!-- In stock artworks-->
+            <div class="instock" v-else>
+              <g-link :to="item.node.path" class="project-link">
+              <g-image
+                  :src="item.node.thumbnail"
+                  :alt="item.node.title"
+                  class="thumbnail"
+              />
+              <h3 class="project-title">{{ item.node.title }}</h3>
+              </g-link>
+            </div>
         </div>
     </div>
   </div>
@@ -46,12 +60,12 @@ export default {
     methods: {
        filtered(id){
         return this.projects.filter(function(value){
-          if(id == 'all' && value.node.categories!='print')
+          if(id == 'all' && !value.node.categories.includes('print'))
           {
             return value;
           }
           else{
-            return value.node.categories == id;
+            return value.node.categories.includes(id);
           }
         })
       },
@@ -155,7 +169,19 @@ input[type="submit"]:hover,
   transform: scale(1.02);
   box-shadow: 0 20px 40px -20px rgba(0,0,0,0.25);
 }
-
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+.image-container{
+  position: relative;
+  text-align: center;
+  color: white;
+  opacity:0.7;
+}
 @media (min-width: 920px) {
   .project {
     grid-column: auto / span 1;
@@ -170,5 +196,6 @@ input[type="submit"]:hover,
   grid-template-columns: 1fr 1fr;
   }
 }
+
 
 </style>

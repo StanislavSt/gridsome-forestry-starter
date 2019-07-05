@@ -2,7 +2,6 @@
   <Layout>
     <div class="journal">
       <div class="container journal-container">
-
         <div class="journal-header">
           <h1 v-html="$page.post.title" class="journal-title" />
           <div class="journal-meta">
@@ -20,7 +19,6 @@
             </div>-->
           </div>          
         </div>
-
         <JournalContent :content="$page.post.content" />
 
       </div>
@@ -55,15 +53,18 @@ export default {
 </script>
 
 <style scoped>
+.container{
+  padding-top:0rem;
+}
 .journal-container {
-  max-width: 840px;
+  max-width: 1200px;
 }
 .journal-header {
-  padding: 0rem 0 1rem 0;
+  padding: 0rem 0 0rem 0;
 }
 .journal-title {
   font-size: 2rem;
-  margin: 0 0 4rem 0;
+  margin: 0 0 1rem 0;
   padding: 0;
 }
 .journal-meta {

@@ -64,6 +64,7 @@ export default {
     line-height: 1.68;
     padding: 0;
     margin: 0;
-    opacity: 0.6;
+    opacity: 0.9;
+    text-transform: uppercase;
 }
 </style>
