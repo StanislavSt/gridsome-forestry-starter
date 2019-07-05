@@ -36,10 +36,10 @@ query Posts {
 </page-query>
 
 <script>
-import ProjectsGrid from "@/components/ProjectsGrid.vue"
-import LatestJournals from "@/components/LatestJournals.vue"
-import Carousel from "@/components/Carousel.vue"
-import HomeSubtitle from "@/components/HomeSubtitle.vue"
+import ProjectsGrid from "@/components/Home/ProjectsGrid.vue"
+import LatestJournals from "@/components/Home/LatestJournals.vue"
+import Carousel from "@/components/Home/Carousel.vue"
+import HomeSubtitle from "@/components/Home/HomeSubtitle.vue"
 
 export default {
   components: {

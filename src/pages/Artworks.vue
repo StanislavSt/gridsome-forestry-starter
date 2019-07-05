@@ -33,7 +33,7 @@ query Posts {
 </page-query>
 
 <script>
-import Gallery from "@/components/Gallery"
+import Gallery from "@/components/Artworks/Gallery.vue"
 
 export default {
   components: {

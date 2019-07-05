@@ -6,12 +6,12 @@
       <slide class="example-slide">
         <div class="bottom-right">2018 Solo exhibition "Debut", gallery "Bulgari", Sofia, Bulgaria</div>
         <img 
-            src="../../static/Thea_About.jpg"
+            src="../../../static/Thea_About.jpg"
         />
       </slide>
       <slide class="example-slide">
         <img 
-            src="../../static/Thea_Contact.jpg"
+            src="../../../static/Thea_Contact.jpg"
         />
       </slide>
     </carousel>
