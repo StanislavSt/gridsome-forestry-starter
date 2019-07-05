@@ -1,7 +1,7 @@
 <template>
     <footer class="footer">
         <div class="container">
-            <span v-html="settings.footer" />
+            <span class="copyright" v-html="settings.footer" />
             <a href="https://www.facebook.com">
             <img 
                         src="../../static/facebook_icon.svg"
@@ -33,7 +33,7 @@ export default {
 <style scoped>
 .footer {
     font-size: 0.8rem;
-    padding: 6rem 0;
+    padding: 4rem 0;
 }
 .container{
     border-top: groove;
@@ -47,9 +47,9 @@ export default {
     bottom: 12px;
     left: 5px;
 }
-@media only screen and (max-width: 768px) {
-  .container{
-  display:block;
-  }
+@media only screen and (max-width: 345px) {
+    .copyright{
+        font-size: 0.6rem;
+    }
 }
 </style>
