@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
         <div class="latest-journals-heading container">
         <span class="label">Latest Exhibitions</span>
         </div>
@@ -25,6 +25,9 @@ export default {
 </script>
 
 <style scoped>
+.container{
+  padding: 0 2rem;
+}
 .latest-journals-heading {
   margin-top: 6rem;
   margin-bottom: 1rem;

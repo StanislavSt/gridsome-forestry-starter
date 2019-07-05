@@ -47,4 +47,9 @@ export default {
     bottom: 12px;
     left: 5px;
 }
+@media only screen and (max-width: 768px) {
+  .container{
+  display:block;
+  }
+}
 </style>
