@@ -193,7 +193,7 @@ input[type="submit"]:hover,
 @media only screen and (max-width: 768px) {
   .category{
   display:grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   }
 }
 
