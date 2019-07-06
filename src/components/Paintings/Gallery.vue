@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="journal-container">
-      <h1 class="journal-header">Artworks</h1>
+      <h1 class="journal-header">Paintings</h1>
     </div>
     <div class="category">
       <a v-on:click="filter('canvas')" class="btn btn-dark">Canvas</a>
@@ -13,7 +13,9 @@
         <!-- Sold artworks-->
         <div
           class="sold"
-          v-if="item.node.categories.includes('sold') && ((category == 'all') || (category == 'canvas')) && !item.node.categories.includes('reproduction')"
+          v-if="item.node.categories.includes('sold') 
+          && ((category == 'all') || (category == 'canvas')) 
+          && !item.node.categories.includes('reproduction')"
         >
           <div class="image-text">
             <g-link :to="item.node.path" class="project-link">

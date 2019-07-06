@@ -12,7 +12,7 @@
     </div>
     <div class="container">
       <nav class="nav left">
-        <g-link class="nav__link" :to="{ name: 'artworks' }">Artworks</g-link>
+        <g-link class="nav__link" :to="{ name: 'paintings' }">Paintings</g-link>
         <g-link class="nav__link" :to="{ name: 'journal' }">Exhibitions</g-link>
         <g-link class="nav__link" :to="{ name: 'contact' }">Contact</g-link>
         <g-link class="nav__link" :to="{ name: 'about' }">About</g-link>
@@ -92,26 +92,21 @@ export default {
   margin-top: 4px;
   margin-right: 3rem;
   padding-bottom: 4px;
-  border-bottom: 1px solid;
-  border-color: transparent;
   transition: border 0.15s;
 }
 .nav > *:last-of-type {
   margin: 0;
 }
 .nav > *:hover {
-  border-color: inherit;
-  color: gray;
+  color: #81bbaa;
 }
 .nav > .active {
-  border-color: inherit;
-  color: gray;
+  color:  #81bbaa;
 }
 @media only screen and (max-width: 768px) {
   .nav > * {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border-bottom: none;
     margin-bottom: 0.9rem;
   }
   .header > .container {
@@ -120,7 +115,6 @@ export default {
     align-items: flex-end;
     padding-bottom: 10rem;
     margin-top: 3.5rem;
-    border-bottom: none;
   }
   .header {
     margin-bottom: 17rem;
