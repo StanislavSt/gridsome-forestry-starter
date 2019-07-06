@@ -6,8 +6,9 @@
         :mouse-drag="false"
         :autoplay="true"
         :centerMode="true"
-        :autoplayTimeout="3000"
+        :autoplayTimeout="4000"
         :paginationSize="8"
+        :loop="true"
       >
         <slide class="example-slide">
           <div class="bottom-right">2018 Solo exhibition "Debut", gallery "Bulgari", Sofia, Bulgaria</div>
@@ -15,37 +16,7 @@
             style="
             min-height: 100%;
             min-width: 100%;"
-            src="../../../static/Thea_Carousel/Carousel5.jpg"
-          />
-        </slide>
-        <slide class="example-slide">
-          <img
-            style="
-            min-height: 100%;
-            min-width: 100%;"
-            src="../../../static/Thea_Carousel/Carousel4.jpg"
-          />
-        </slide>
-        <slide class="example-slide">
-          <img
-            class="example-img-3"
-            src="../../../static/Thea_Carousel/Carousel2.jpg"
-          />
-        </slide>
-        <slide class="example-slide">
-          <img
-            style="
-            min-height: 100%;
-            min-width: 100%;"
-            src="../../../static/Thea_Carousel/Carousel1.jpg"
-          />
-        </slide>
-        <slide class="example-slide">
-          <img
-            style="
-            min-height: 100%;
-            min-width: 100%;"
-            src="../../../static/Thea_Carousel/Carousel3.jpg"
+            src="../../../static/Thea_Carousel/Canvas6.jpg"
           />
         </slide>
         <slide class="example-slide">
@@ -57,11 +28,23 @@
           />
         </slide>
         <slide class="example-slide">
+          <img class="example-img-3" src="../../../static/Thea_Carousel/Carousel2.jpg" />
+        </slide>
+        <slide class="example-slide">
           <img
             style="
             min-height: 100%;
             min-width: 100%;"
             src="../../../static/Thea_Contact.jpg"
+          />
+        </slide>
+        <slide class="example-slide">
+          <img
+            class="example-img-3"
+            style="
+            min-height: 100%;
+            min-width: 100%;"
+            src="../../../static/Thea_Carousel/Carousel8.jpg"
           />
         </slide>
       </carousel>
@@ -91,8 +74,8 @@ export default {
 .example-slide {
   height: 30rem;
 }
-.example-img-3{
-  transform: translate(0,-250px);
+.example-img-3 {
+  transform: translate(0, -250px);
   min-height: 120%;
   min-width: 100%;
 }
@@ -114,8 +97,8 @@ export default {
   .container-carousel {
     padding: 0.5rem;
   }
-  .example-img-3{
-    transform:none;
+  .example-img-3 {
+    transform: none;
     min-height: 100%;
   }
 }
