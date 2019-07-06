@@ -28,10 +28,7 @@
         </slide>
         <slide class="example-slide">
           <img
-            style="
-            transform: translate(0,-250px);
-            min-height: 120%;
-            min-width: 100%;"
+            class="example-img-3"
             src="../../../static/Thea_Carousel/Carousel2.jpg"
           />
         </slide>
@@ -94,6 +91,11 @@ export default {
 .example-slide {
   height: 30rem;
 }
+.example-img-3{
+  transform: translate(0,-250px);
+  min-height: 120%;
+  min-width: 100%;
+}
 .bottom-right {
   position: absolute;
   bottom: 8px;
@@ -105,12 +107,16 @@ export default {
   margin: 0 auto;
   padding: 0 0 3rem 0;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 960px) {
   .example-slide {
     height: 15rem;
   }
   .container-carousel {
     padding: 0.5rem;
+  }
+  .example-img-3{
+    transform:none;
+    min-height: 100%;
   }
 }
 </style>
