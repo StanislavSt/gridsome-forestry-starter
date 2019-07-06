@@ -7,6 +7,7 @@
         :autoplay="true"
         :centerMode="true"
         :autoplayTimeout="3000"
+        :paginationSize="8"
       >
         <slide class="example-slide">
           <div class="bottom-right">2018 Solo exhibition "Debut", gallery "Bulgari", Sofia, Bulgaria</div>
@@ -56,6 +57,9 @@ export default {
 @media only screen and (max-width: 768px) {
   .example-slide {
     height: 15rem;
+  }
+  .container-carousel {
+    padding: 0.5rem;
   }
 }
 </style>
