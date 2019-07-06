@@ -1,5 +1,8 @@
 <template>
   <div>
+    <div class="journal-container">
+      <h1 class="journal-header">Artworks</h1>
+    </div>
     <div class="category">
       <a v-on:click="filter('canvas')" class="btn btn-dark">Canvas</a>
       <a v-on:click="filter('reproduction')" class="btn btn-dark">Reproduction</a>
@@ -168,6 +171,14 @@ input[type="submit"]:hover,
   text-align: center;
   color: white;
   opacity: 0.8;
+}
+.journal-container {
+  padding-bottom: 3rem;
+  text-align: center;
+}
+.journal-header {
+  font-size: 2rem;
+  font-weight: 700;
 }
 @media (min-width: 920px) {
   .project {

@@ -120,6 +120,7 @@ export default {
     align-items: flex-end;
     padding-bottom: 10rem;
     margin-top: 3.5rem;
+    border-bottom: none;
   }
   .header {
     margin-bottom: 17rem;
