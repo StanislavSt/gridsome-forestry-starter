@@ -13,7 +13,7 @@
           <img src="../../../static/Thea_About.jpg" />
         </slide>
         <slide class="example-slide">
-          <img src="../../../static/Thea_Contact.jpg" />
+          <img src="../../../static/Thea_About.jpg" />
         </slide>
       </carousel>
     </div>
@@ -49,7 +49,9 @@ export default {
   color: white;
 }
 .container-carousel {
-  padding-bottom: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 0 3rem 0;
 }
 @media only screen and (max-width: 768px) {
   .example-slide {
