@@ -36,6 +36,7 @@ fields:
     color_format: Hex
   label: Foreground color
 pages:
+- projects/about.md
 - projects/water-colors.md
 - projects/canvas-6.md
 - projects/reproduction-7.md
