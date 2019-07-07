@@ -1,7 +1,7 @@
 <template>
   <div class="categories">
     <div class="projects">
-      <div class="project" v-for="item in projects.slice(0,6)" :key="item.node.id">
+      <div class="project" v-for="item in projects.slice(0,9)" :key="item.node.id">
         <div v-if="item.node.categories.includes('canvas')">
           <g-link :to="item.node.path" class="project-link">
             <g-image :src="item.node.thumbnail" :alt="item.node.title" class="thumbnail" />
@@ -22,6 +22,21 @@ export default {
     projects: {
       type: Array,
       required: true
+    }
+  },
+  methods: {
+    filtered(category) {
+      return this.projects
+      return this.projects.filter(function(value) {
+        if (category == "all") {
+          return value;
+        } else {
+          return value.node.categories.includes(category);
+        }
+      });
+    },
+    filter: function(tag) {
+      this.category = tag;
     }
   }
 };
