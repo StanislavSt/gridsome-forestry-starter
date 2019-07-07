@@ -1,8 +1,7 @@
 <template>
   <Layout>
-          <Carousel />
+    <Carousel />
     <div class="container">
-
       <HomeSubtitle />
       <ProjectsGrid :projects="$page.projects.edges" />
     </div>

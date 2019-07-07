@@ -58,7 +58,7 @@ export default {
     filtered(id) {
       return this.projects.filter(function(value) {
         if (id == "all") {
-          return !value.node.categories.includes('page');
+          return !value.node.categories.includes("page");
         } else {
           return value.node.categories.includes(id);
         }
