@@ -1,7 +1,7 @@
 <template>
   <div class="categories">
     <div class="projects">
-      <div class="project" v-for="item in projects.slice(0,9)" :key="item.node.id">
+      <div class="project" v-for="item in filter().slice(0,5)" :key="item.node.id">
         <div v-if="item.node.categories.includes('canvas')">
           <g-link :to="item.node.path" class="project-link">
             <g-image :src="item.node.thumbnail" :alt="item.node.title" class="thumbnail" />
@@ -25,18 +25,10 @@ export default {
     }
   },
   methods: {
-    filtered(category) {
-      return this.projects
+    filter() {
       return this.projects.filter(function(value) {
-        if (category == "all") {
-          return value;
-        } else {
-          return value.node.categories.includes(category);
-        }
+        return value.node.categories.includes("canvas");
       });
-    },
-    filter: function(tag) {
-      this.category = tag;
     }
   }
 };
@@ -85,7 +77,7 @@ export default {
   .project {
     grid-column: auto / span 1;
   }
-  .project:nth-child(3n + 1) {
+  .project:nth-child(3n + 3) {
     grid-column: auto / span 2;
   }
 }
@@ -93,7 +85,7 @@ export default {
   .project {
     grid-column: auto / span 1;
   }
-  .project:nth-child(3n + 1) {
+  .project:nth-child(3n + 3) {
     grid-column: auto / span 2;
   }
   .projects {
