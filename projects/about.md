@@ -2,8 +2,7 @@
 date: 2019
 thumbnail: "/uploads/Thea_Contact.jpg"
 title: About
-categories:
-- page
+categories: []
 project_bg_color: ''
 project_fg_color: ''
 
