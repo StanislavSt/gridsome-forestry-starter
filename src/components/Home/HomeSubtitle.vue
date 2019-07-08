@@ -13,7 +13,7 @@ export default {};
   font-weight: 400;
   line-height: 1.68;
   padding: 0;
-  margin: 0;
+  margin-bottom: 1.5rem;
   opacity: 0.9;
   text-transform: uppercase;
 }
