@@ -27,3 +27,5 @@ project_fg_color: ''
 <h2>Exhibitions:</h2>
 
 <li>2018 Solo exhibition "Debut", gallery "Bulgari", Sofia, Bulgaria.</li>
+
+<h2></h2>
