@@ -10,7 +10,7 @@ project_fg_color: ''
 ---
 <h2>About Thea Velichkova</h2>
 
-<p>Thea Velichkova is an art painter born in 1980 in second biggest town in Bulgaria, Plovdiv, where she study in art college. Now a days she is based in capital Sofia. Thea Velichkova have a master of restoration and conservation degree in National Academy of Arts - Sofia, Bulgaria and master of interior design degree in New Bulgarian University, Sofia, Bulgaria. Also she have a educational qualification by the ''Facultad de Bellas Artes de Granada'' ( Spain). Thea started her education with restoration and conservation of artefacts, but after she graduated changed quickly to art painting and interior design. She creates mostly abstract, colourful paintings. Her technique consist of carefully layering colours on canvas. The paintings is an abstract and unique view of her inner world </p>
+<p>Thea Velichkova is an art painter born in 1980 in the second biggest town in Bulgaria - Plovdiv. There she studied in art college. Nowadays she is based in the capital - Sofia. Thea Velichkova has a masters degree in restoration and conservation from the National Academy of Arts - Sofia, Bulgaria and master of interior design degree in New Bulgarian University, Sofia, Bulgaria. Also she has an educational qualification by the ''Facultad de Bellas Artes de Granada'' ( Spain). Thea started her education with restoration and conservation of artefacts, but after she graduated changed quickly to art painting and interior design. She creates mostly abstract, colourful paintings. Her technique consist of carefully layering colours on canvas. The paintings is an abstract and unique view of her inner world </p>
 
 <h2>Education:</h2>
 
