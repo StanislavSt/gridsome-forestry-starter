@@ -17,9 +17,9 @@
         <g-link class="nav__link" :to="{ name: 'contact' }">Contact</g-link>
         <g-link class="nav__link" :to="{ name: 'about' }">About</g-link>
       </nav>
-      <nav class="nav right">
+      <!--<nav class="nav right">
         <g-link class="nav_language">EN / BG</g-link>
-      </nav>
+      </nav>-->
     </div>
   </header>
 </template>
