@@ -1,20 +1,23 @@
 <template>
-  <form class="contact-form" name="contact">
+  <form action="POST" data-netlify="true" class="contact-form" name="contact">
     <div class="sender-info">
       <div>
         <label for="name" class="label">YOUR NAME *</label>
-        <input type="text" name="name" />
+        <input type="text" name="name" id="name" placeholder="Your name..."/>
       </div>
       <div>
         <label for="email" class="label">YOUR EMAIL *</label>
-        <input type="email" name="email" />
+        <input type="email" name="email" id="email" placeholder="Your email..."/>
       </div>
     </div>
     <div class="message">
       <label for="message" class="label">MESSAGE *</label>
-      <textarea name="message"></textarea>
+      <textarea name="message" id="message" placeholder="Your message..."></textarea>
     </div>
-    <button class="button">SEND</button>
+    <div class="field">
+      <div data-netlify-recaptcha></div>
+    </div>
+    <button class="button" type="submit">SEND</button>
   </form>
 </template>
 
