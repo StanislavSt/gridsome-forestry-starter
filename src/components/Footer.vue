@@ -2,10 +2,10 @@
   <footer class="footer">
     <div class="container">
       <span class="copyright" v-html="settings.footer" />
-      <a href="https://www.facebook.com">
-        <img src="../../static/facebook_icon.svg" :alt="settings.site_name" class="social" />
-      </a>
-      <a href="https://www.instagram.com">
+      <g-link :to="{ name: 'contact' }">
+        <img src="../../static/mail_icon.svg" :alt="settings.site_name" class="social mail" />
+      </g-link>
+      <a href="https://www.instagram.com/thea_art07/">
         <img src="../../static/instagram_icon.svg" :alt="settings.site_name" class="social" />
       </a>
     </div>
@@ -33,11 +33,15 @@ export default {
 }
 .social {
   float: right;
-  height: 2.4rem;
+  height: 2.6rem;
   position: relative;
   /* Adjust these values accordingly */
-  bottom: 12px;
+  bottom: 13px;
   left: 5px;
+}
+.social.mail{
+  height: 1.7rem;
+  bottom: 6px;
 }
 @media only screen and (max-width: 345px) {
   .copyright {

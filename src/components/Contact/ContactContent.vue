@@ -4,11 +4,11 @@
     <div class="contact-header">
       <p>
         +
-        <a href="http://www.instagram.com">INSTAGRAM</a>
+        <a href="https://www.instagram.com/thea_art07/">INSTAGRAM</a>
       </p>
       <p>
         EMAIL:
-        <a class="social">EMAIL@GMAIL.COM</a>
+        <a class="social">TEDI.VELICHKOVA@GMAIL.COM</a>
         OR FILL IN THE FORM BELOW.
       </p>
     </div>
