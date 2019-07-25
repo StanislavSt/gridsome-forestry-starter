@@ -3,6 +3,11 @@
     <Header />
     <slot />
     <Footer />
+      <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <input type="text" name="name" id="name"/>
+        <input type="email" name="email" id="email"/>
+        <textarea name="message" id="message"></textarea>
+      </form>
   </div>
 </template>
 
