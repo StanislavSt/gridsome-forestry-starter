@@ -6,7 +6,7 @@
           <h1 class="project-title" v-html="$page.post.title" />
           <div class="project-info">
             <div class="categories-container">
-              <div class="categories">
+              <!--<div class="categories">
                 <span class="label">Categories</span>
                 <span
                   class="category"
@@ -14,12 +14,12 @@
                   :key="index"
                   v-text="category"
                 />
-              </div>
+              </div>-->
             </div>
-            <div class="year-container">
+            <!--<div class="year-container">
               <span class="label">Year</span>
               <div v-html="$page.post.date" />
-            </div>
+            </div>-->
           </div>
         </div>
         <div v-html="$page.post.content" class="content" />
