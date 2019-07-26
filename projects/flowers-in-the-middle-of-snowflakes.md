@@ -12,4 +12,6 @@ project_fg_color: ''
 ---
 Size - 100" / 130"
 
+Acrylic on canvas
+
 ![](/uploads/65446090_328749154703981_5249217640857075712_n.jpg)
