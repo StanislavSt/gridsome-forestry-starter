@@ -17,9 +17,14 @@
         <g-link class="nav__link" :to="{ name: 'contact' }">Contact</g-link>
         <g-link class="nav__link" :to="{ name: 'about' }">About</g-link>
       </nav>
-      <!--<nav class="nav right">
-        <g-link class="nav_language">EN / BG</g-link>
-      </nav>-->
+      <div class="nav-right" >
+      <g-link :to="{ name: 'contact' }">
+              <img src="../../static/mail_icon.svg" :alt="settings.site_name" class="social mail" />
+            </g-link>
+            <a href="https://www.instagram.com/thea_art07/">
+              <img src="../../static/instagram_icon.svg" :alt="settings.site_name" class="social" />
+            </a>
+      </div>
     </div>
   </header>
 </template>
@@ -103,6 +108,19 @@ export default {
 .nav > .active {
   color:  #81bbaa;
 }
+.social {
+  float: right;
+  height: 2.6rem;
+  position: relative;
+  bottom: 0px;
+  left: 5px;
+  top:6px;
+}
+.social.mail{
+  height: 1.7rem;
+  top:13px;
+  bottom: 0px;
+}
 @media only screen and (max-width: 768px) {
   .nav > * {
     display: grid;
@@ -119,10 +137,6 @@ export default {
   }
   .header {
     margin-bottom: 17rem;
-  }
-  .nav_language {
-    display: block;
-    text-align: end;
   }
 }
 </style>

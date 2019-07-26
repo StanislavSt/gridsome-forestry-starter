@@ -2,12 +2,7 @@
   <footer class="footer">
     <div class="container">
       <span class="copyright" v-html="settings.footer" />
-      <g-link :to="{ name: 'contact' }">
-        <img src="../../static/mail_icon.svg" :alt="settings.site_name" class="social mail" />
-      </g-link>
-      <a href="https://www.instagram.com/thea_art07/">
-        <img src="../../static/instagram_icon.svg" :alt="settings.site_name" class="social" />
-      </a>
+      
     </div>
   </footer>
 </template>
