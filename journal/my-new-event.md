@@ -8,7 +8,7 @@ project_bg_color: ''
 project_fg_color: ''
 
 ---
-On the 5th of May 2018, Thea opened her first independent exhibition "Debut", thanks to the cooperation of gallery "България" - Sofia. 
+On the 5th of May 2018, Thea opened her first independent exhibition "Debut", thanks to the cooperation of gallery "Българи" - Sofia.
 
 ![](/uploads/66452824_464130177705878_7717333572599676928_n.jpg)
 
