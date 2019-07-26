@@ -1,14 +1,14 @@
 ---
 date: 2019
 thumbnail: "/uploads/Canvas7.jpg"
-title: Изложба “Дебют” в галерия Българи- София
+title: Exhibition “Debut” in gallery "Българи" - Sofia
 categories:
 - journal
 project_bg_color: ''
 project_fg_color: ''
 
 ---
-На 5 ти май 2018 Теа откри първата си самостоятелна изложба “Дебют”, благодаря за съдействието на галерия “Българи” София.
+On the 5th of May 2018, Thea opened her first independent exhibition "Debut", thanks to the cooperation of gallery "България" - Sofia. 
 
 ![](/uploads/66452824_464130177705878_7717333572599676928_n.jpg)
 
