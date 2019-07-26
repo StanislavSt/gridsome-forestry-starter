@@ -5,6 +5,7 @@
     </div>
   </layout>
 </template>
+
 <page-query>
 query Posts {
 	projects: allProjectPost {

@@ -6,7 +6,7 @@
         :mouse-drag="false"
         :autoplay="true"
         :centerMode="true"
-        :autoplayTimeout="4000"
+        :autoplayTimeout="2000"
         :paginationSize="8"
         :loop="true"
       >

@@ -14,7 +14,7 @@ export default {
 
 <style scoped>
 .journal-container {
-  padding-top: 6rem;
+  padding-top: 1rem;
 }
 p {
   line-height: 1.5;
