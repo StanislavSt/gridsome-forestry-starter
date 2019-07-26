@@ -11,7 +11,6 @@
         :loop="true"
       >
         <slide class="example-slide">
-          <div class="bottom-right">2018 Solo exhibition "Debut", gallery "Bulgari", Sofia, Bulgaria</div>
           <img
             style="
             min-height: 100%;
@@ -78,12 +77,6 @@ export default {
   transform: translate(0, -250px);
   min-height: 120%;
   min-width: 100%;
-}
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-  color: white;
 }
 .container-carousel {
   max-width: 1200px;
