@@ -1,7 +1,7 @@
 ---
 date: 2018
 thumbnail: "/uploads/Canvas1.jpg"
-title: 'Sunkissed 1 '
+title: 'Sun kissed 1 '
 categories:
 - canvas
 - sold
