@@ -8,6 +8,14 @@ project_bg_color: ''
 project_fg_color: ''
 
 ---
-<h3> 2018 Solo exhibition "Debut", gallery "Bulgari", Sofia, Bulgaria.</h3>
+На 5 ти май 2018 Теа откри първата си самостоятелна изложба “Дебют”, благодарие съдействието на галерия “Българи” София.
 
-![](https://scontent-amt2-1.xx.fbcdn.net/v/t1.15752-9/65458249_488341585252756_3460282183464255488_n.jpg?_nc_cat=110&_nc_oc=AQkHZQgRgDdiXYWaYbTTMuRLqID11PYEysFVw6meNP8TnsY1AmOVnlZAX4hwsHmgnbc&_nc_ht=scontent-amt2-1.xx&oh=7414d78844ae7870b3102a93c93d5d68&oe=5DBF8E4B)
+![](/uploads/66452824_464130177705878_7717333572599676928_n.jpg)
+
+![](/uploads/66624530_2431008470289344_1053616105467150336_n.jpg)
+
+![](/uploads/66503131_2241315166181951_6157272378335297536_n.jpg)
+
+![](/uploads/66450123_713340859099882_5197082123772624896_n.jpg)
+
+![](/uploads/66279317_688560008232128_5230057061605179392_n.jpg)![](/uploads/66272893_494881707986549_8123692196684627968_n.jpg)
