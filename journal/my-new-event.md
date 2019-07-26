@@ -1,7 +1,7 @@
 ---
 date: 2019
 thumbnail: "/uploads/Canvas7.jpg"
-title: 2018 Solo exhibition "Debut"
+title: Изложба “Дебют” в галерия Българи- София
 categories:
 - journal
 project_bg_color: ''
