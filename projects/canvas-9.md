@@ -5,6 +5,7 @@ title: 'Desire '
 categories:
 - canvas
 - sold
+- print
 project_bg_color: ''
 project_fg_color: ''
 
