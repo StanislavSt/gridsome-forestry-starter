@@ -5,8 +5,8 @@
     </div>
     <div class="category">
       <a v-on:click="filter('canvas')" class="btn btn-dark">Canvas</a>
-      <a v-on:click="filter('reproduction')" class="btn btn-dark">Reproduction</a>
-      <a v-on:click="filter('print')" class="btn btn-dark">Print</a>
+      <a v-on:click="filter('reproductions')" class="btn btn-dark">Reproduction</a>
+      <a v-on:click="filter('prints')" class="btn btn-dark">Print</a>
     </div>
     <div class="projects">
       <div class="project" v-for="item in filtered(this.category)" :key="item.node.id">
