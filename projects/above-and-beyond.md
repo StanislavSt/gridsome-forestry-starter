@@ -2,10 +2,7 @@
 date: 2019
 thumbnail: "/uploads/Canvas10.jpg"
 title: Above and beyond
-categories:
-- canvas
-- print
-- sold
+categories: []
 project_bg_color: ''
 project_fg_color: ''
 
