@@ -10,7 +10,7 @@ project_bg_color: ''
 project_fg_color: ''
 
 ---
-Size - 100”/80” 
+Size - 100”/80”
 
 Acrylic on canvas
 
