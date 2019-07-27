@@ -4,8 +4,6 @@ thumbnail: "/uploads/Canvas10.jpg"
 title: 'Above and beyond '
 categories:
 - canvas
-- sold
-- print
 project_bg_color: ''
 project_fg_color: ''
 
