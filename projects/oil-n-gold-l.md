@@ -1,5 +1,5 @@
 ---
-date: 2019
+date: '1981'
 thumbnail: "/uploads/48411574_10210233732719424_6738859401739763712_n.jpg"
 title: 'Reflection 1 '
 categories:

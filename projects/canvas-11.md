@@ -1,5 +1,5 @@
 ---
-date: 2019
+date: '1982'
 thumbnail: "/uploads/Canvas11.jpg"
 title: 'Reflection 2 '
 categories:

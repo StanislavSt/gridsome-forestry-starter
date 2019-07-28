@@ -1,5 +1,5 @@
 ---
-date: 2019
+date: '1979'
 thumbnail: "/uploads/Canvas2.jpg"
 title: Golden flower
 categories:

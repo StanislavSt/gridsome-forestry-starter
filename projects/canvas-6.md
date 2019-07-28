@@ -1,5 +1,5 @@
 ---
-date: 2019
+date: '1980'
 thumbnail: "/uploads/Canvas6.jpg"
 title: 'Tulips '
 categories:

@@ -1,5 +1,5 @@
 ---
-date: 2019
+date: '1977'
 thumbnail: "/uploads/Canvas5.jpg"
 title: 'Face 2 '
 categories:
