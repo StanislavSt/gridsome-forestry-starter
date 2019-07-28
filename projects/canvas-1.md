@@ -1,5 +1,5 @@
 ---
-date: 2018
+date: '1971'
 thumbnail: "/uploads/Canvas1.jpg"
 title: Sun kissed 1
 categories:

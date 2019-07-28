@@ -56,7 +56,7 @@ export default {
   },
   methods: {
     filtered(id) {
-      return this.projects.filter(function(value) {
+      return this.projects.sort(this.compare).filter(function(value) {
         if (id == "all") {
           return !value.node.categories.includes("about");
         } else {
@@ -66,8 +66,17 @@ export default {
     },
     filter: function(tag) {
       this.category = tag;
+    },
+    compare(a,b){
+      if (a.node.date < b.node.date){
+        return -1;
+      }
+      if(a.node.date > b.node.date){
+        return 1;
+      }
+      return 0;
     }
-  }
+  },
 };
 </script>
 

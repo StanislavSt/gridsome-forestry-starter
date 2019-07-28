@@ -1,5 +1,5 @@
 ---
-date: 2019
+date: '1974'
 thumbnail: "/uploads/23167485_10207976356766436_7230783872396222776_n.jpg"
 title: Back
 categories:

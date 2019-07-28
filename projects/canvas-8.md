@@ -1,5 +1,5 @@
 ---
-date: 2019
+date: '1972'
 thumbnail: "/uploads/Canvas8.jpg"
 title: 'Sun kissed 2 '
 categories:

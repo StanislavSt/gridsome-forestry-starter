@@ -1,5 +1,5 @@
 ---
-date: 2019
+date: '1975'
 thumbnail: "/uploads/Canvas10.jpg"
 title: Above and beyond
 categories:

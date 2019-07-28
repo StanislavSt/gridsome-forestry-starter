@@ -1,5 +1,5 @@
 ---
-date: 2019
+date: '1973'
 thumbnail: "/uploads/Canvas7.jpg"
 title: 'Agent Provocateur '
 categories:
