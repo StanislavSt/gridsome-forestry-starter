@@ -1,5 +1,5 @@
 ---
-date: 2019
+date: 06/30/2019
 thumbnail: "/uploads/Reproduction7.jpg"
 title: Reproduction 7
 categories:
