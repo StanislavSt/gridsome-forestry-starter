@@ -51,12 +51,13 @@ export default {
   },
   data: function() {
     return {
-      category: "all"
+      category: "all",
+      sortedList: this.projects.sort(this.compare)
     };
   },
   methods: {
     filtered(id) {
-      return this.projects.sort(this.compare).filter(function(value) {
+      return this.sortedList.filter(function(value) {
         if (id == "all") {
           return !value.node.categories.includes("about");
         } else {
