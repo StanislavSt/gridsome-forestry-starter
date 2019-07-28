@@ -8,7 +8,7 @@
 
 <page-query>
 query Posts {
-	projects: allProjectPost {
+	projects: allProjectPost(perPage:50) {
     edges {
       node {
         id
@@ -20,15 +20,6 @@ query Posts {
       }
     }
   },
-  journals: allJournalPost (perPage: 4) {
-    edges {
-      node {
-        id
-        path
-        title
-      }
-    }
-  }
 }
 </page-query>
 
