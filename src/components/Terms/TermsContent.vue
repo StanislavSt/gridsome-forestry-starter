@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="terms">
     <h2>
       <strong>Terms and Conditions</strong>
     </h2>
@@ -123,4 +123,9 @@ export default {};
 </script>
 
 <style scoped>
+@media only screen and (max-width: 390px) {
+    .terms{
+        font-size: 13px;
+    }
+}
 </style>
