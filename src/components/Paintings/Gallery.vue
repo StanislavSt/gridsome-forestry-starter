@@ -246,8 +246,10 @@ input[type="submit"]:hover,
 .description-container {
   font-family: "Ubuntu", sans-serif;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 0 12% 5% 12%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1rem;
+  padding: 0 25% 5% 28%;
   font-size: 15px;
 }
 .description {
