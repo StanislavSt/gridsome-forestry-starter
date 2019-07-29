@@ -8,6 +8,55 @@
       <a v-on:click="filter('reproduction')" class="btn btn-dark">Reproductions</a>
       <a v-on:click="filter('print')" class="btn btn-dark">Prints</a>
     </div>
+    <div v-if="category ==='print' || category ==='reproduction'" class="order">
+      <a v-on:click="isHidden = !isHidden" href>Order information</a>
+    </div>
+    <!-- Prints-->
+    <div
+      v-if="!isHidden && category === 'print'"
+      class="description-container"
+      id="description-container"
+    >
+      <div class="description">
+        You can order a high quality print from one of Thea's paintings , with a size by your choice.
+        <br />Time to produce -
+        <span style="font-weight:bold">one week</span>.
+        <br />If you would like to order -
+        <g-link :to="{ name: 'contact' }">
+          <span style="font-weight:bold">contact </span>
+        </g-link> &nbsp; us.
+      </div>
+      <div class="description">
+        Може да поръчате висококачествен принт на авторска картина на Tеа по желан от вас размер.
+        <br />Срок за изработка -
+        <span style="font-weight:bold">една седмица</span>.
+        <br />За поръчки -
+        <g-link :to="{ name: 'contact' }">
+          <span style="font-weight:bold">свържете</span>
+        </g-link> &nbsp;се с нас.
+      </div>
+    </div>
+    <!-- Reproduction-->
+    <div
+      v-if="!isHidden && category === 'reproduction'"
+      class="description-container"
+      id="description-container"
+    >
+      <div class="description">
+        You can order a reproduction of a painting from your favourite painter.
+        <br />If you would like to order -
+        <g-link :to="{ name: 'contact' }">
+          <span style="font-weight:bold">contact</span>
+        </g-link> &nbsp; us.
+      </div>
+      <div class="description">
+        Може да поръчате репродукция на картина от предпочитан от вас автор.
+        <br />За поръчки - 
+        <g-link :to="{ name: 'contact' }">
+          <span style="font-weight:bold">свържете</span>
+        </g-link> &nbsp; се с нас.
+      </div>
+    </div>
     <div class="projects">
       <div class="project" v-for="item in filtered(this.category)" :key="item.node.id">
         <!-- Sold artworks-->
@@ -52,7 +101,8 @@ export default {
   data: function() {
     return {
       category: "all",
-      sortedList: this.projects.sort(this.compare)
+      sortedList: this.projects.sort(this.compare),
+      isHidden: true
     };
   },
   methods: {
@@ -68,21 +118,22 @@ export default {
     filter: function(tag) {
       this.category = tag;
     },
-    compare(a,b){
-      if (a.node.date < b.node.date){
+    compare(a, b) {
+      if (a.node.date < b.node.date) {
         return -1;
       }
-      if(a.node.date > b.node.date){
+      if (a.node.date > b.node.date) {
         return 1;
       }
       return 0;
     }
-  },
+  }
 };
 </script>
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
 /*------------------------------------------------------*/
 /* BUTTONS */
 /*------------------------------------------------------*/
@@ -185,12 +236,32 @@ input[type="submit"]:hover,
   opacity: 0.8;
 }
 .journal-container {
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   text-align: center;
 }
 .journal-header {
   font-size: 2rem;
   font-weight: 700;
+}
+.description-container {
+  font-family: "Ubuntu", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 12% 5% 12%;
+  font-size: 15px;
+}
+.description {
+  margin: 0.1em;
+  text-align: justify, center;
+}
+.order {
+  text-align: center;
+  padding-bottom: 3rem;
+  margin: 0 auto;
+  font-size: 11px;
+}
+.order >>> a:hover {
+  background-color: yellow;
 }
 @media (min-width: 920px) {
   .project {
@@ -204,6 +275,17 @@ input[type="submit"]:hover,
   .category {
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .description-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 0 5% 15% 5%;
+    font-size: 12px;
+  }
+  .description {
+    text-align: justify;
   }
 }
 </style>

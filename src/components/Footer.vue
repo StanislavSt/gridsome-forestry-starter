@@ -2,7 +2,6 @@
   <footer class="footer">
     <div class="container">
       <span class="copyright" v-html="settings.footer" />
-      
     </div>
   </footer>
 </template>
@@ -25,18 +24,6 @@ export default {
 .container {
   border-top: groove;
   padding-top: 2rem;
-}
-.social {
-  float: right;
-  height: 2.6rem;
-  position: relative;
-  /* Adjust these values accordingly */
-  bottom: 13px;
-  left: 5px;
-}
-.social.mail{
-  height: 1.7rem;
-  bottom: 6px;
 }
 @media only screen and (max-width: 345px) {
   .copyright {
