@@ -1,7 +1,7 @@
 <template>
     <div class="journal-container">
       <h1 class="journal-header" style="text-align:center">Order Information</h1>
-      <h2 class="journal-header">Reproductions / Репрродукция</h2>
+      <h2 class="journal-header">Reproductions / Репродукция</h2>
     <!-- Reproduction-->
       <div class="description">
         You can order a reproduction of a painting from your favourite painter.
