@@ -18,7 +18,7 @@ fields:
     required: true
     date_format: YYYY
     time_format: ''
-    export_format: "'YYYY'"
+    export_format: YYYY
     display_utc: true
   default: now
   hidden: false
