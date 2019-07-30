@@ -15,15 +15,16 @@
         <g-link class="nav__link" :to="{ name: 'paintings' }">Paintings</g-link>
         <g-link class="nav__link" :to="{ name: 'journal' }">Exhibitions</g-link>
         <g-link class="nav__link" :to="{ name: 'contact' }">Contact</g-link>
+        <g-link class="nav__link" :to="{ name: 'order' }">Order</g-link>
         <g-link class="nav__link" :to="{ name: 'about' }">About</g-link>
       </nav>
-      <div class="nav-right" >
-      <g-link :to="{ name: 'contact' }">
-              <img src="../../static/mail_icon.svg" :alt="settings.site_name" class="social mail" />
-            </g-link>
-            <a href="https://www.instagram.com/thea_art07/">
-              <img src="../../static/instagram_icon.svg" :alt="settings.site_name" class="social" />
-            </a>
+      <div class="nav-right">
+        <g-link :to="{ name: 'contact' }">
+          <img src="../../static/mail_icon.svg" :alt="settings.site_name" class="social mail" />
+        </g-link>
+        <a href="https://www.instagram.com/thea_art07/">
+          <img src="../../static/instagram_icon.svg" :alt="settings.site_name" class="social" />
+        </a>
       </div>
     </div>
   </header>
@@ -106,7 +107,7 @@ export default {
   color: #81bbaa;
 }
 .nav > .active {
-  color:  #81bbaa;
+  color: #81bbaa;
 }
 .social {
   float: right;
@@ -114,11 +115,11 @@ export default {
   position: relative;
   bottom: 0px;
   left: 5px;
-  top:6px;
+  top: 6px;
 }
-.social.mail{
+.social.mail {
   height: 1.7rem;
-  top:13px;
+  top: 13px;
   bottom: 0px;
 }
 @media only screen and (max-width: 768px) {
@@ -133,7 +134,7 @@ export default {
     align-items: flex-end;
     padding-bottom: 10rem;
     margin-top: 3.5rem;
-    border:none;
+    border: none;
   }
   .header {
     margin-bottom: 17rem;
