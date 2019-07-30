@@ -50,6 +50,16 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+@media only screen and (max-width: 768px) {
+h2{
+    font-size: 18px;
+}
+h1{
+    font-size: 26px;
+}
+.description{
+    font-size: 14px;
+}
+}
 </style>
