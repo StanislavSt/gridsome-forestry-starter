@@ -1,6 +1,6 @@
 ---
 date: 2019
-thumbnail: "/uploads/IMG_0257.jpeg"
+thumbnail: "/uploads/7.jpg"
 title: Lazy afternoon
 categories:
 - canvas
@@ -12,4 +12,4 @@ Acrylic on canvas
 
 Size: 100"/80"
 
-![](/uploads/IMG_0257.jpeg)
+![](/uploads/7.jpg)![](/uploads/IMG_0257.jpeg)
