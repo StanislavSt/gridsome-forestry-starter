@@ -37,6 +37,7 @@ fields:
   label: Foreground color
 pages:
 - journal/my-new-event.md
+- projects/a-dream-of-spring.md
 - projects/about.md
 - projects/above-and-beyond.md
 - projects/above-water.md
